@@ -1,3 +1,4 @@
+import config from '../../tailwind.config';
 export const productsData = [
   {
     id: 1,
@@ -502,6 +503,7 @@ export const productsData = [
       "/images/products/galaxy-15-removebg-preview.png",
     ],
   },
+// nhap them
   {
     id: 17,
     name: "Camera DH-H5D-5F",
@@ -555,44 +557,121 @@ export const productsData = [
     price: 1099999,
     discount: 10,
     rating: 5,
-    reviews: Review[
-
+    reviews:  [
+        {
+        content: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio voluptatem aliquam reprehenderit debitis quidem accusantium",
+        author: "Shohag miah",
+        image: "/images/people/person.jpg",
+        rating:4,
+        date: new Date(),
+      },      
     ],
-    brand?: "",
-    color?: ""[],
-    stockItems: number,
-    images: ""[],
+    brand?: "Dahua",
+    price: 950000,
+    discount: 10,
+    rating: 4.9,
+    reviews: [
+      {
+        content: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio voluptatem aliquam reprehenderit debitis quidem accusantium",
+        author: "Shohag miah",
+        image: "/images/people/person.jpg",
+        rating:4,
+        date: new Date(),
+      },
+    ],
+    brand?: "Dahua",
+    color?: ['black'],
+    stockItems: 5,
+    images: ["/images/products/HFW1239MP-A-IL"],
   },
   {
     id: 19,
-    name: "Camera DH-H5D-5F",
-    category: "Camera WiFi",
-    description: "",
-    aboutItem: ""[],
-    price: number,
-    discount: number,
-    rating: number,
-    reviews: Review[],
-    brand?: "",
-    color?: ""[],
-    stockItems: number,
-    images: ""[],
+    name: "Camera DH-HDW1239V-PV",
+    category: "Camera IP",
+    description: "Camera Dome 2.0MP có mic báo động",
+    aboutItem: [
+      "Độ phân giải 2MP 1/2.8″ CMOS (1920 × 1080)@25/30 fps",
+      "Chuẩn nén H.265+",
+      "Ống kính cố định 2.8mm (góc nhìn 103°)",
+      "Độ nhạy sáng tối thiểu: 0.0005 lux@F1.6",
+      "Chống ngược sáng DWDR, tự động cân bằng trắng (AWB), tự động bù tín hiệu ảnh (AGC), chống ngược sáng(BLC), chống nhiễu (3D-DNR).",
+      "Chế độ chiếu sáng kép thông minh: LED ánh sáng trắng 30m, hồng ngoại 30m.",
+      "Tính năng thông minh: Phát hiện con người",
+      "Tích hợp loa và mic, đàm thoại hai chiều",
+      "Báo động chủ động đèn còi tại Camera",
+    ],
+    price: 990000,
+    discount: 5,
+    rating: 5,
+    reviews:  [
+        {
+        content: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio voluptatem aliquam reprehenderit debitis quidem accusantium",
+        author: "Shohag miah",
+        image: "/images/people/",
+        rating:4,
+        date: new Date(),
+      },      
+    ],
+    brand?: "Dahua",
+    color?: ['black'],
+    stockItems: 8,
+    images: ["/images/products/DH-HDW1239V-PV"],
   },
   {
     id: 20,
-    name: "Camera DH-H5D-5F",
+    name: "HFW-1239MP-A-IL",
+    category: "Camera IP",
+    description: "Camera Thân cố định 2.0MP có mic",
+    aboutItem: [
+      'Độ phân giải 2MP 1/2.8″ CMOS (1920 × 1080)@25/30 fps',
+      "Chuẩn nén H.265+",
+      "Ống kính cố định 3.6mm (góc nhìn 87°)",
+      "Độ nhạy sáng tối thiểu: 0.001 lux@F1.6",
+      "Chống ngược sáng WDR, tự động cân bằng trắng (AWB), tự động bù tín hiệu ảnh (AGC), chống ngược sáng(BLC), chống nhiễu (3D-DNR).",
+      "Chế độ chiếu sáng kép thông minh: LED ánh sáng trắng 30m, hồng ngoại 80m.",
+      "Tích hợp mic",
+      "Tính năng thông minh: Phát hiện con người",
+    ],
+    price: 930000,
+    discount: 5,
+    rating: 5,
+    reviews:  [
+        {
+        content: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio voluptatem aliquam reprehenderit debitis quidem accusantium",
+        author: "Shohag miah",
+        image: "/images/people/person.jpg",
+        rating:4,
+        date: new Date(),
+      },      
+    ],
+    brand?: "Dahua",
+    color?: ['white'],
+    
+    discount: 5,
+    rating: 5, 
+    image: ["images/products/HFW-1239MP-A-IL"],
+  },
+  {
+    id: 22,
+    name: "IPC-S7UP-11M0WED",
     category: "Camera WiFi",
-    description: "",
-    aboutItem: ""[],
-    price: number,
-    discount: number,
-    rating: number,
-    reviews: Review[],
-    brand?: "",
-    color?: ""[],
-    stockItems: number,
-    images: ""[],
-  }
-];
-
-
+    description: "Camera Thân cố định 2.0MP có mic",
+    aboutItem: [
+     "Ống kính với độ phân giải 11.0MP (3.0 MP cho 2 ống kính cố định và 5.0 MP cho ống kính quay quét).",
+     "Ống kính cố định 3.6mm (góc nhìn 87°)",
+     "Ống kính quay quét 6mm (góc nhìn 51°) có thể điều khiển từ xa, góc quay ngang 0~355°, góc quay dọc 0~90°.",
+     "Chuẩn nén H.265. Tốc độ khung hình 155555"
+     "Chống ngược sáng",
+     "Chế độ ánh sáng kép thông minh 4 chế độ ban đêm, Hồng ngoại và đèn LED trên cả 2 ống kính, tầm xa5555 
+     "Đàm thoại 2 chiều với mic và loa tích5555 ẵn",
+     "Hỗ trợ các tính 5555 hông minh AIgo Play: phát hiện chuyển động, phát hiện con người, phát hiện xe cộ, phát hiện xâm nhập( phân biệt người/ xe), phát hiện vượt rào (phân biệt người/ xe), theo dõi đối tượng Smart Tracking, tự động Tour theo điểm",
+     "Báo động chủ động bằng đèn xanh đỏ và còi tại camera, tùy chỉnh âm thanh báo đ5555 
+    price: 195555 
+    discou5555 
+    rating: 4;
+    reviews:  ,
+    brand? ,
+    color? ,
+    stockItems ,
+    images ,
+  };

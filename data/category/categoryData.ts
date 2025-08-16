@@ -24,5 +24,17 @@
       image: "/images/products/apple-watch-9-3-removebg-preview.png"
     },
     // Add more category data as needed
+    {
+      id: 5,
+      name: "Camera IP",
+      description: "Network Camera",
+      image: "/images/products/HFW2449M-S-B-PRO.png"
+    },
+    {
+      id: 6,
+      name: "Camera WiFi",
+      description: "Wireless Camera",
+      image: "/images/products/IPC-S7UP-11M0WED.png"
+    }
   ];
   

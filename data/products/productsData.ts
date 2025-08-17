@@ -532,10 +532,10 @@ export const productsData = [
         date: new Date(),
       },
     ],
-    brand?: "Dahua",
-    color?: ['black'],
+    brand: "Dahua",
+    color: ['black'],
     stockItems: 5,
-    images: ["/images/products/DH-H5D-5F.png"],
+    images: ["/images/banner/DH-H5D-5F.png"],
   },
   {
     id: 18,
@@ -566,23 +566,10 @@ export const productsData = [
         date: new Date(),
       },      
     ],
-    brand?: "Dahua",
-    price: 950000,
-    discount: 10,
-    rating: 4.9,
-    reviews: [
-      {
-        content: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio voluptatem aliquam reprehenderit debitis quidem accusantium",
-        author: "Shohag miah",
-        image: "/images/people/person.jpg",
-        rating:4,
-        date: new Date(),
-      },
-    ],
-    brand?: "Dahua",
-    color?: ['black'],
+    brand: "Dahua",
+    color: ['black'],
     stockItems: 5,
-    images: ["/images/products/HFW1239MP-A-IL"],
+    images: ["/images/products/HFW1239MP-A-IL.png"],
   },
   {
     id: 19,
@@ -612,10 +599,10 @@ export const productsData = [
         date: new Date(),
       },      
     ],
-    brand?: "Dahua",
-    color?: ['black'],
+    brand: "Dahua",
+    color: ['black'],
     stockItems: 8,
-    images: ["/images/products/DH-HDW1239V-PV"],
+    images: ["/images/products/DH-HDW1239V-PV.png"],
   },
   {
     id: 20,
@@ -644,12 +631,10 @@ export const productsData = [
         date: new Date(),
       },      
     ],
-    brand?: "Dahua",
-    color?: ['white'],
-    
-    discount: 5,
-    rating: 5, 
-    image: ["images/products/HFW-1239MP-A-IL"],
+    brand: "Dahua",
+    color: ['white'],
+    stockItems: 8,
+    image: ["images/products/HFW-1239MP-A-IL.png"],
   },
   {
     id: 22,
@@ -660,18 +645,29 @@ export const productsData = [
      "Ống kính với độ phân giải 11.0MP (3.0 MP cho 2 ống kính cố định và 5.0 MP cho ống kính quay quét).",
      "Ống kính cố định 3.6mm (góc nhìn 87°)",
      "Ống kính quay quét 6mm (góc nhìn 51°) có thể điều khiển từ xa, góc quay ngang 0~355°, góc quay dọc 0~90°.",
-     "Chuẩn nén H.265. Tốc độ khung hình 155555"
+     "Chuẩn nén H.265. Tốc độ khung hình 155",
      "Chống ngược sáng",
-     "Chế độ ánh sáng kép thông minh 4 chế độ ban đêm, Hồng ngoại và đèn LED trên cả 2 ống kính, tầm xa5555 
+     "Chống nhiễu",
+     "Chế độ ánh sáng kép thông minh 4 chế độ ban đêm, Hồng ngoại và đèn LED trên cả 2 ống kính, tầm xa",
      "Đàm thoại 2 chiều với mic và loa tích5555 ẵn",
      "Hỗ trợ các tính 5555 hông minh AIgo Play: phát hiện chuyển động, phát hiện con người, phát hiện xe cộ, phát hiện xâm nhập( phân biệt người/ xe), phát hiện vượt rào (phân biệt người/ xe), theo dõi đối tượng Smart Tracking, tự động Tour theo điểm",
-     "Báo động chủ động bằng đèn xanh đỏ và còi tại camera, tùy chỉnh âm thanh báo đ5555 
-    price: 195555 
-    discou5555 
-    rating: 4;
-    reviews:  ,
-    brand? ,
-    color? ,
-    stockItems ,
-    images ,
-  };
+     "Báo động chủ động bằng đèn xanh đỏ và còi tại camera, tùy chỉnh âm thanh báo đông",
+    ],
+    price: 195555,
+    discount: 10, 
+    rating: 4,
+    reviews:  [
+        {
+        content: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio voluptatem aliquam reprehenderit debitis quidem accusantium",
+        author: "Shohag miah",
+        image: "/images/people/person.jpg",
+        rating:4,
+        date: new Date(),
+      },      
+    ],
+    brand: "IMOU",
+    color: ['black'],
+    stockItems: 8,
+    images: ['/images/products/IPC-S7UP-11M0WED.png'],
+  },
+]

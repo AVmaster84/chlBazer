@@ -34,7 +34,7 @@ const HeaderOne = () => {
   const { openModal } = useMobileSearchModal();
 
   return (
-    <header className="sticky bg-stone-400/50 dark:bg-slate-900 top-0 z-50 w-full shadow-md">
+    <header className="sticky dark:bg-slate-900 top-0 z-50 w-full shadow-md bg-slate-300 opacity-80 dark:opacity-100">
       <div className="max-w-(--breakpoint-xl) mx-auto  p-4 md:py-4 md:px-8 flex items-center justify-between gap-2">
         <Logo />
         <ul className="hidden lg:flex items-center gap-4 xl:gap-6 text-lg ">
@@ -42,7 +42,7 @@ const HeaderOne = () => {
             <Link
               key={link.link}
               className={cn(
-                "font-medium px-4 py-1 rounded-full hover:bg-gray-200 dark:bg-gray-800",
+                "font-medium px-4 py-1 rounded-full hover:bg-gray-200 dark:bg-slate-800 dark:hover:text-black",
                 link.isActive && "bg-gray-200/30 dark:bg-gray-800 rounded-2xl"
               )}
               href={link.link}

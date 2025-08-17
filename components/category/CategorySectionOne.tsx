@@ -18,7 +18,7 @@ const CategorySectionOne = () => {
   }
 
   return (
-    <section className="py-16 bg-slate-300 dark:bg-slate-900">
+    <section className="py-16 bg-slate-300 dark:bg-slate-900 d-glass">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-(--breakpoint-xl) mx-auto overflow-auto px-4 md:px-8">
       {dummyCategories.map((category) => (
         <div

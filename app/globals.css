@@ -1,4 +1,9 @@
 @import "tailwindcss";
+@plugin "daisyui" {
+  themes: false;
+  exclude: rootscrollgutter, rootcolor;
+  prefix: "d-";
+};
 
 @custom-variant dark (&:where(.dark, .dark *));
 
@@ -184,6 +189,16 @@
 }
 
 
+@keyframes ping2 {
+  75%, 100% {
+    transform: scale(1.2);
+    opacity: 0;
+  }
+}
+
+.animate-ping2 {
+  animation: ping2 infinite
+}
 
 .animate-blob1 {
   animation: blob1 5s infinite alternate;

@@ -65,7 +65,7 @@ export const productsData = [
   },
   {
     id: 3,
-    name: "FireBolt Ninja SmartWatch | lorem ipsum doller",
+    name: "FireBolt Ninja SmartWatch",
     category: "Watches",
     description:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio voluptatem aliquam reprehenderit debitis quidem accusantium quas reiciendis quae, enim nesciunt, illo sit ea aspernatur quo perferendis! Cumque fuga impedit corrupti!",
@@ -96,7 +96,7 @@ export const productsData = [
   },
   {
     id:4,
-    name: "Samsung Galaxy 4 Smartwatch | lorem ipsun doller",
+    name: "Samsung Galaxy 4 Smartwatch",
     category: "Watches",
     description:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio voluptatem aliquam reprehenderit debitis quidem accusantium quas reiciendis quae, enim nesciunt, illo sit ea aspernatur quo perferendis! Cumque fuga impedit corrupti!",
@@ -126,7 +126,7 @@ export const productsData = [
   },
   {
     id:5,
-    name: "Asus Vivobook Pro | lorem ipsum",
+    name: "Asus Vivobook Pro",
     category: "Computers",
     description:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio voluptatem aliquam reprehenderit debitis quidem accusantium quas reiciendis quae, enim nesciunt, illo sit ea aspernatur quo perferendis! Cumque fuga impedit corrupti!",
@@ -158,7 +158,7 @@ export const productsData = [
   },
   {
     id: 6,
-    name: "Dell Gaming Laptop | lorem ipsum dlllres",
+    name: "Dell Gaming Laptop",
     category: "Computers",
     description:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio voluptatem aliquam reprehenderit debitis quidem accusantium quas reiciendis quae, enim nesciunt, illo sit ea aspernatur quo perferendis! Cumque fuga impedit corrupti!",
@@ -189,7 +189,7 @@ export const productsData = [
   },
   {
     id: 7,
-    name: "Lenova Powerfull Laptop | lorem ipsum dlllres",
+    name: "Lenovo Powerful Laptop",
     category: "Computers",
     description:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio voluptatem aliquam reprehenderit debitis quidem accusantium quas reiciendis quae, enim nesciunt, illo sit ea aspernatur quo perferendis! Cumque fuga impedit corrupti!",
@@ -201,7 +201,7 @@ export const productsData = [
     ],
     price: 800,
     rating: 4.2,
-    brand: "Lenova",
+    brand: "Lenovo",
     color: ['black','gray', 'yellow','blue'],
     stockItems: 3,
     reviews: [
@@ -221,7 +221,7 @@ export const productsData = [
   },
   {
     id: 8,
-    name: "MSI Modern Laptop 14 | lorem ipsum dlllres",
+    name: "MSI Modern Laptop 14 ",
     category: "Computers",
     description:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio voluptatem aliquam reprehenderit debitis quidem accusantium quas reiciendis quae, enim nesciunt, illo sit ea aspernatur quo perferendis! Cumque fuga impedit corrupti!",
@@ -254,7 +254,7 @@ export const productsData = [
   },
   {
     id: 9,
-    name: "Sony Dynamic Wh High Headphone | lorem ipsum dlllres",
+    name: "Sony Dynamic Wh High Headphone",
     category: "Headphones",
     description:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio voluptatem aliquam reprehenderit debitis quidem accusantium quas reiciendis quae, enim nesciunt, illo sit ea aspernatur quo perferendis! Cumque fuga impedit corrupti!",

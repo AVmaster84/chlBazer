@@ -26,7 +26,7 @@ const ProductsCollectionOne = () => {
           <h2 className="text-3xl md:text-5xl font-semibold border-l-4 border-l-rose-500 p-2">
             Featured Products
           </h2>
-          <TabsList className="font-semibold bg-transparent text-center">
+          <TabsList className="font-semibold bg-transparent text-center dark:bg-transparent">
             <TabsTrigger value="top-rated" className="md:text-xl">
               Đánh giá cao nhất
             </TabsTrigger>

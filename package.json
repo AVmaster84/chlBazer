@@ -25,6 +25,7 @@
     "@tanstack/react-table": "^8.16.0",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
+    "daisyui": "^5.0.50",
     "embla-carousel-autoplay": "^8.0.2",
     "embla-carousel-react": "^8.0.2",
     "framer-motion": "^12.23.12",

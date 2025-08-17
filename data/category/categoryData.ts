@@ -14,7 +14,7 @@
     { 
       id: 3, 
       name: "Headphones", 
-      description: "Experience immersive audio with headphones and speakers.", 
+      description: "Tai nghe c", 
       image: "/images/products/senheiser-removebg-preview.png"
     },
     { 

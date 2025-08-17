@@ -51,24 +51,28 @@ const CategoriesCollection = () => {
             {cameraips?.slice(0, 4)?.map((cameraip) => (
               <div
                 key={cameraip.id}
-                className="flex flex-col items-center justify-center text-center gap-2 border-1 rounded-lg border-stone-200 shadow-md"
+                className="relative flex flex-col items-center justify-center text-center gap-2 border-1 rounded-lg border-stone-100/20  shadow-md h-64 hover:border-stone-200/10"
               >
-                
+                <div className="absolute -top-2 -right-4">
+                  <p className="bg-rose-600 p-1 text-sm text-white animate-pulse whitespace-nowrap w-fit rounded-sm">
+                     Giarm {cameraip.discount}%
+                </p>
+                </div>
                 <Image
                   src={cameraip.images[0]}
                   alt={cameraip.name}
                   width={100}
                   height={100}
-                  className="object-contain rounded-md"
+                  className="object-none rounded-md transition-all duration-700 hover:scale-140 overflow-visibility"
                 />
                 <div className="flex items-center flex-col">
-                  
                   <Link
                     href={`/shop/${cameraip.id}`}
                     onClick={(e) => e.stopPropagation()}
-                    className=" font-semibold hover:text-blue-500"
+                    className=" font-semibold hover:text-indigo-700 hover:text-extrabold"
                   >
-                    {cameraip.name.slice(0, 18)}
+                    {/* {cameraip.name.slice(0, 18)} */}
+                    {cameraip.name}
                   </Link>
                 </div>
               </div>
@@ -86,7 +90,7 @@ const CategoriesCollection = () => {
         {/* showing headphones collection */}
         <div
           onClick={() => handleCollectionClick(headphones[0].category)}
-          className="flex flex-col gap-4 items-start justify-between p-4 md:p-8 rounded-xl bg-slate-200 dark:bg-slate-900 shadow-md"
+          className="flex flex-col gap-4 items-start justify-between p-4 md:p-8 rounded-xl bg-stone-300/20 dark:bg-slate-900 shadow-lg"
         >
           <h2 className="text-xl md:text-2xl text-center font-semibold my-4 w-full">
             Best Deals For You On <span className="text-2xl font-bold">{headphones[0].category}</span>
@@ -95,25 +99,28 @@ const CategoriesCollection = () => {
             {headphones?.slice(0, 4)?.map((headphone) => (
               <div
                 key={headphone.id}
-                className="flex flex-col items-center justify-center text-center gap-2"
+                className="relative flex flex-col items-center justify-center text-center gap-2 border-1 rounded-lg border-stone-100/20 shadow-md h-64"
               >
+                <div className="absolute -top-2 -right-4">
+                  <p className="bg-rose-600 p-1 text-sm text-white animate-pulse whitespace-nowrap w-fit rounded-sm">
+                      {headphone.discount}% off
+                   </p>
+                </div>
                 <Image
                   src={headphone.images[0]}
                   alt={headphone.name}
                   width={100}
                   height={100}
-                  className="object-contain rounded-md"
+                  className="object-contain rounded-md duration-700 transition-all hover:scale-140 overflow-visibility"
                 />
-                <div className="flex items-center flex-col">
-                  <p className="bg-rose-600 p-1 text-sm text-white whitespace-nowrap w-fit">
-                    {headphone.discount}% off
-                  </p>
+                <div className="flex flex-col">
                   <Link
                     href={`/shop/${headphone.id}`}
                     onClick={(e) => e.stopPropagation()}
-                    className=" font-semibold hover:text-green-500"
+                    className=" font-semibold hover:text-indigo-700 hover:text-extrabold"
                   >
-                    {headphone.name.slice(0, 15)}...
+                    {/* {headphone.name.slice(0, 15)}... */}
+                    {headphone.name}
                   </Link>
                 </div>
               </div>
@@ -131,7 +138,7 @@ const CategoriesCollection = () => {
         {/* showing computers collection */}
         <div
           onClick={() => handleCollectionClick(computers[0].category)}
-          className="flex flex-col gap-4 items-start justify-between p-4 md:p-8 rounded-xl bg-slate-200 dark:bg-slate-900 shadow-md"
+          className="flex flex-col gap-4 items-start justify-between p-4 md:p-8 rounded-xl bg-stone-300/20 dark:bg-slate-900 shadow-lg"
         >
           <h2 className="text-xl md:text-2xl text-center font-semibold my-4 w-full">
             Best Deals For You On <span className="text-2xl font-bold">{computers[0].category}</span>
@@ -140,25 +147,28 @@ const CategoriesCollection = () => {
             {computers?.slice(0, 4)?.map((computer) => (
               <div
                 key={computer.id}
-                className="flex flex-col items-center justify-center text-center gap-2"
+                className="relative flex flex-col items-center justify-center text-center gap-2 border-1 rounded-lg border-stone-100/20 shadow-md h-64 bg-background"
               >
+                <div className="absolute -top-2 -right-4">
+                  <p className="bg-rose-600 p-1 text-sm text-white animate-pulse whitespace-nowrap w-fit rounded-sm">
+                      {computer.discount}% off
+                  </p>
+                </div>
                 <Image
                   src={computer.images[0]}
                   alt={computer.name}
                   width={100}
                   height={100}
-                  className="object-contain rounded-md"
+                  className="object-contain rounded-md duration-700 transition-all hover:scale-140 overflow-visibility"
                 />
                 <div className="flex items-center flex-col">
-                  <p className="bg-rose-600 p-1 text-sm text-white whitespace-nowrap w-fit">
-                    {computer.discount}% off
-                  </p>
                   <Link
                     href={`/shop/${computer.id}`}
                     onClick={(e) => e.stopPropagation()}
-                    className=" font-semibold hover:text-green-500"
+                    className=" font-semibold hover:text-indigo-700 hover:text-extrabold"
                   >
-                    {computer.name.slice(0, 15)}...
+                    {/* {computer.name.slice(0, 15)}... */}
+                    {computer.name}
                   </Link>
                 </div>
               </div>

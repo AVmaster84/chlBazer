@@ -7,14 +7,14 @@ import RecentBlogs from "../../blog/RecentBlogs";
 
 const BlogPageOne = () => {
   return (
-    <div className="max-w-screen-xl mx-auto p-4 md:p-8 grid gap-6 grid-cols-1 md:grid-cols-3 lg:grid-cols-5 ">
+    <div className="max-w-(--breakpoint-xl) mx-auto p-4 md:p-8 grid gap-6 grid-cols-1 md:grid-cols-3 lg:grid-cols-5 ">
       <div className="col-span-3 space-y-4">
         {blogPosts.map((blog) => (
           <div
             key={blog.title}
-            className="block space-y-2 rounded-md shadow p-4 dark:bg-gray-900 text-left"
+            className="block space-y-2 rounded-md shadow-sm p-4 dark:bg-gray-900 text-left"
           >
-            <div className="relative w-full h-[20rem]">
+            <div className="relative w-full h-80">
               <Image
                 className="rounded-md object-contain"
                 src={blog.image || ""}

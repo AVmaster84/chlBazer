@@ -8,7 +8,7 @@ import React, { Suspense } from "react";
 
 const ProductsPage = () => {
   return (
-    <div className="max-w-screen-xl mx-auto w-full bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 my-4">
+    <div className="max-w-(--breakpoint-xl) mx-auto w-full bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 my-4">
       <ProductHeader />
       <div className="overflow-x-auto">
         <table className="min-w-full overflow-x-scroll divide-y divide-gray-200 dark:divide-gray-700 border dark:border-gray-500">

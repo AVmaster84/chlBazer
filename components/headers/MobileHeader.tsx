@@ -101,13 +101,13 @@ const MobileHeader = () => {
                     {link.label}
                   </Link>
                 ))}
-                <Separator className="!my-2" />
+                <Separator className="my-2!" />
                 {/* theme toggle option here */}
                 <div className="flex items-center gap-2">
                   <ThemeToggle />
                   <p>Change Theme</p>
                 </div>
-                <Separator className="!my-2" />
+                <Separator className="my-2!" />
 
                 {/* user retated options here */}
                 {userLinks.map((link) => (
@@ -122,7 +122,7 @@ const MobileHeader = () => {
                     {link.icon} {link.label}
                   </Link>
                 ))}
-                <Separator className="!my-2" />
+                <Separator className="my-2!" />
                 <button className="flex items-start justify-start gap-2 p-2 bg-transparent hover:opacity-50">
                   <LogOut />
                   Logout

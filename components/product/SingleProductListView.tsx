@@ -19,7 +19,7 @@ const SingleProductListView = ({ product }: { product: Product }) => {
       href={`/shop/${id}`}
       className="group flex flex-col lg:flex-row lg:items-start items-center justify-center gap-4 relative space-y-4 p-4 md:p-8 border"
     >
-      <div className="flex-shrink-0 w-[20rem] h-[18rem] relative rounded-md overflow-hidden bg-gray-200">
+      <div className="shrink-0 w-[20rem] h-72 relative rounded-md overflow-hidden bg-gray-200">
         <Image src={images[0]} alt={name} fill className="object-contain" />
       </div>
       <div className="">

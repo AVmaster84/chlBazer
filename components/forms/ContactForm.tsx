@@ -45,7 +45,7 @@ const ContactForm: React.FC = () => {
                 type="text"
                 id="name"
                 autoComplete="name"
-                className="mt-1 focus:ring-blue-500 focus:border-blue-500 block w-full shadow-sm sm:text-sm border-gray-300 dark:border-gray-600 rounded-md"
+                className="mt-1 focus:ring-blue-500 focus:border-blue-500 block w-full shadow-xs sm:text-sm border-gray-300 dark:border-gray-600 rounded-md"
                 {...register('name')}
               />
               {errors.name && <span className="text-red-500">{errors.name.message}</span>}
@@ -57,7 +57,7 @@ const ContactForm: React.FC = () => {
   
                 id="email"
                 autoComplete="email"
-                className="mt-1 focus:ring-blue-500 focus:border-blue-500 block w-full shadow-sm sm:text-sm border-gray-300 dark:border-gray-600 rounded-md"
+                className="mt-1 focus:ring-blue-500 focus:border-blue-500 block w-full shadow-xs sm:text-sm border-gray-300 dark:border-gray-600 rounded-md"
                 {...register('email')}
               />
               {errors.email && <span className="text-red-500">{errors.email.message}</span>}
@@ -66,7 +66,7 @@ const ContactForm: React.FC = () => {
               <Label htmlFor="message">Message</Label>
               <textarea
                 id="message"
-                className="mt-1 bg-white dark:bg-slate-950 p-2 focus:ring-blue-500 focus:border-blue-500 block w-full shadow-sm sm:text-sm border-gray-300 dark:border-gray-600 rounded-md border"
+                className="mt-1 bg-white dark:bg-slate-950 p-2 focus:ring-blue-500 focus:border-blue-500 block w-full shadow-xs sm:text-sm border-gray-300 dark:border-gray-600 rounded-md border"
                 rows={10}
                 cols={30}
                 {...register('message')}
@@ -76,7 +76,7 @@ const ContactForm: React.FC = () => {
             <div className="mt-4 flex items-center justify-end">
               <Button
                 type="submit"
-                className="w-fit flex items-center justify-center py-4 px-6 border border-transparent rounded-md shadow-sm text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 text-base font-medium"
+                className="w-fit flex items-center justify-center py-4 px-6 border border-transparent rounded-md shadow-xs text-white bg-blue-600 hover:bg-blue-700 focus:outline-hidden focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 text-base font-medium"
               >
                 Send Message
               </Button>

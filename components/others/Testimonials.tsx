@@ -13,7 +13,7 @@ import Autoplay from "embla-carousel-autoplay";
 const TestimonialsSection = ({ textCenter }: { textCenter: boolean }) => {
   return (
     <div className="py-16 bg-gray-200 dark:bg-gray-800">
-      <div className="max-w-screen-xl mx-auto px-4 md:px-8">
+      <div className="max-w-(--breakpoint-xl) mx-auto px-4 md:px-8">
         <h2
           className={cn(
             "text-3xl md:text-5xl  font-bold text-gray-900 dark:text-white mb-12 p-2 w-fit ",

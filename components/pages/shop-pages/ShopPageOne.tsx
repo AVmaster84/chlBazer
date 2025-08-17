@@ -17,7 +17,7 @@ interface ShopPageOneProps {
 
 const ShopPageOne = ({ searchParams }: ShopPageOneProps) => {
   return (
-    <section className="max-w-screen-xl flex gap-2 mx-auto p-2 md:p-8">
+    <section className="max-w-(--breakpoint-xl) flex gap-2 mx-auto p-2 md:p-8">
       <div className="hidden xl:block w-72">
         <Suspense fallback={<Loader />}>
           <FilterProducts />

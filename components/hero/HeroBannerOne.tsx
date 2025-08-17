@@ -20,8 +20,8 @@ const HeroBannerOne = () => {
   // get banners data from server then display here
 
   return (
-    <section className="bg-gradient-to-r from-slate-50 to-slate-100 dark:from-slate-800 dark:to-slate-900 ">
-      <div className="max-w-screen-xl mx-auto py-15 px-4 md:px-8 ">
+    <section className="bg-linear-to-r from-slate-50 to-slate-100 dark:from-slate-800 dark:to-slate-900 ">
+      <div className="max-w-(--breakpoint-xl) mx-auto py-15 px-4 md:px-8 ">
         <Carousel
           plugins={[
             Autoplay({
@@ -84,7 +84,7 @@ const HeroBannerOne = () => {
                   initial={{ opacity: 0 }}
                   whileInView={{ opacity: 1 }}
                   transition={{ duration: 0.5, delay: 0.5 }}
-                  className="absolute right-[10rem] top-[8rem] flex items-center justify-center pointer-events-none z-0"
+                  className="absolute right-40 top-32 flex items-center justify-center pointer-events-none z-0"
                 >
                   <div className="absolute w-48 h-48 bg-yellow-400 rounded-full animate-blob1"></div>
                   <div className="absolute w-48 h-48 bg-red-400 rounded-full animate-blob2"></div>

@@ -25,7 +25,7 @@ const ProductViewChange = ({
   currentPage,
 }: ProductViewChangeProps) => {
   return (
-    <div className="max-w-screen-xl mx-auto py-4  md:-mb-4 flex flex-wrap items-center gap-2 md:gap-4 px-4 lg:px-0 ">
+    <div className="max-w-(--breakpoint-xl) mx-auto py-4  md:-mb-4 flex flex-wrap items-center gap-2 md:gap-4 px-4 lg:px-0 ">
       <div className="mr-auto">
         {/* showing total shown result on the page */}
         <p className=" text-base md:text-lg  font-medium capitalize text-muted-foreground  select-none">

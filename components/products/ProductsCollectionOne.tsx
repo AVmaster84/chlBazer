@@ -20,7 +20,7 @@ const ProductsCollectionOne = () => {
   }
 
   return (
-    <section className="max-w-screen-xl mx-auto py-16 px-4 md:px-8 w-full">
+    <section className="max-w-(--breakpoint-xl) mx-auto py-16 px-4 md:px-8 w-full">
       <Tabs defaultValue="top-rated" className="w-full space-y-8 mx-0">
         <div className="flex items-center flex-col md:flex-row justify-between gap-2 flex-wrap w-full">
           <h2 className="text-3xl md:text-5xl font-semibold border-l-4 border-l-rose-500 p-2">

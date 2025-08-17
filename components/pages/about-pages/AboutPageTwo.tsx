@@ -30,7 +30,7 @@ const AboutPageTwo = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             {/* Team Member Card */}
             <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden">
-              <div className="relative w-full h-[16rem]">
+              <div className="relative w-full h-64">
                 <Image
                   src="/images/people/group-image.avif"
                   alt="Team Member 1"
@@ -50,7 +50,7 @@ const AboutPageTwo = () => {
 
             {/* Team Member Card */}
             <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden">
-              <div className="relative w-full h-[16rem]">
+              <div className="relative w-full h-64">
                 <Image
                   src="/images/people/group-image.avif"
                   alt="Team Member 1"

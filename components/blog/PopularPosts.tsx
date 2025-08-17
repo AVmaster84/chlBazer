@@ -14,7 +14,7 @@ const PopularPosts = () => {
           {blogPosts.map((post) => (
             <li key={post.title} className="flex items-center space-x-4">
               {/* Display post thumbnail */}
-              <div className="flex-shrink-0 relative h-12 w-12 rounded-lg overflow-hidden">
+              <div className="shrink-0 relative h-12 w-12 rounded-lg overflow-hidden">
                 <Image
                   src={post.image}
                   alt={post.title}

@@ -54,7 +54,7 @@ const AccountPopover = () => {
         >
           <ul className="space-y-1 text-center ">
             <UserAvatar />
-            <Separator className="!my-2" />
+            <Separator className="my-2!" />
             {userLinks.map((link) => (
               <Link
                 key={link.link}
@@ -67,7 +67,7 @@ const AccountPopover = () => {
                 {link.icon} {link.label}
               </Link>
             ))}
-            <Separator className="!my-2" />
+            <Separator className="my-2!" />
             <button className="flex items-start justify-start gap-2 p-2 bg-transparent hover:opacity-50">
               <LogOut />
               Logout

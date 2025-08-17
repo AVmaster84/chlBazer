@@ -40,7 +40,7 @@ const CartItemsDetails = () => {
       {cartItems?.map((item) => (
         <div
           key={item?.id}
-          className="flex flex-wrap items-center justify-between gap-1 md:gap-2 border-b border-gray-300 dark:border-gray-500 py-4 !m-0"
+          className="flex flex-wrap items-center justify-between gap-1 md:gap-2 border-b border-gray-300 dark:border-gray-500 py-4 m-0!"
         >
           <div className="flex items-center space-x-4">
             <Image
@@ -63,7 +63,7 @@ const CartItemsDetails = () => {
               disabled={item?.quantity === 1}
               onClick={() => updateQuantity(item?.id, item?.quantity - 1)}
               size={"sm"}
-              variant={"outline"}
+              variant={"outline-solid"}
             >
               <Minus />
             </Button>
@@ -71,7 +71,7 @@ const CartItemsDetails = () => {
             <Button
               onClick={() => updateQuantity(item.id, item.quantity + 1)}
               size={"sm"}
-              variant={"outline"}
+              variant={"outline-solid"}
             >
               <Plus />
             </Button>
@@ -88,7 +88,7 @@ const CartItemsDetails = () => {
         </div>
       ))}
       {cartItems?.length >= 1 && (
-        <Button variant={'outline'} className="my-2" onClick={clearCart}>Clear Cart</Button>
+        <Button variant={'outline-solid'} className="my-2" onClick={clearCart}>Clear Cart</Button>
       )}
     </div>
   );

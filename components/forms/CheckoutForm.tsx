@@ -45,7 +45,7 @@ const CheckoutForm: React.FC = () => {
             <Input
               id="firstName"
               {...register("firstName")}
-              className="w-full border border-gray-300 dark:border-gray-700 rounded-lg p-6 focus:outline-none"
+              className="w-full border border-gray-300 dark:border-gray-700 rounded-lg p-6 focus:outline-hidden"
             />
             {errors.firstName && (
               <span className="text-red-500">{errors.firstName.message}</span>
@@ -56,7 +56,7 @@ const CheckoutForm: React.FC = () => {
             <Input
               id="lastName"
               {...register("lastName")}
-              className="w-full border border-gray-300 dark:border-gray-700 rounded-lg p-6 focus:outline-none"
+              className="w-full border border-gray-300 dark:border-gray-700 rounded-lg p-6 focus:outline-hidden"
             />
             {errors.lastName && (
               <span className="text-red-500">{errors.lastName.message}</span>
@@ -68,7 +68,7 @@ const CheckoutForm: React.FC = () => {
           <Input
             id="address"
             {...register("address")}
-            className="w-full border border-gray-300 dark:border-gray-700 rounded-lg p-6 focus:outline-none"
+            className="w-full border border-gray-300 dark:border-gray-700 rounded-lg p-6 focus:outline-hidden"
           />
           {errors.address && (
             <span className="text-red-500">{errors.address.message}</span>
@@ -81,7 +81,7 @@ const CheckoutForm: React.FC = () => {
               type="tel"
               id="phone"
               {...register("phone")}
-              className="w-full border border-gray-300 dark:border-gray-700 rounded-lg p-6 focus:outline-none"
+              className="w-full border border-gray-300 dark:border-gray-700 rounded-lg p-6 focus:outline-hidden"
             />
             {errors.phone && (
               <span className="text-red-500">{errors.phone.message}</span>
@@ -92,7 +92,7 @@ const CheckoutForm: React.FC = () => {
             <Input
               id="city"
               {...register("city")}
-              className="w-full border border-gray-300 dark:border-gray-700 rounded-lg p-6 focus:outline-none"
+              className="w-full border border-gray-300 dark:border-gray-700 rounded-lg p-6 focus:outline-hidden"
             />
             {errors.city && (
               <span className="text-red-500">{errors.city.message}</span>
@@ -105,7 +105,7 @@ const CheckoutForm: React.FC = () => {
             <Input
               id="zip"
               {...register("zip")}
-              className="w-full border border-gray-300 dark:border-gray-700 rounded-lg p-6 focus:outline-none"
+              className="w-full border border-gray-300 dark:border-gray-700 rounded-lg p-6 focus:outline-hidden"
             />
             {errors.zip && (
               <span className="text-red-500">{errors.zip.message}</span>
@@ -116,7 +116,7 @@ const CheckoutForm: React.FC = () => {
             <Input
               id="country"
               {...register("country")}
-              className="w-full p-6 border border-gray-300 dark:border-gray-700 rounded-lg  focus:outline-none"
+              className="w-full p-6 border border-gray-300 dark:border-gray-700 rounded-lg  focus:outline-hidden"
             />
             {errors.country && (
               <span className="text-red-500">{errors.country.message}</span>

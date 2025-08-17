@@ -27,7 +27,7 @@ const ProductIdPage = ({ params }: ProductIdPageProps) => {
 
   // Return the JSX structure of the component
   return (
-    <div className="max-w-screen-xl mx-auto p-4 md:p-8 flex flex-col items-start gap-2 min-h-screen">
+    <div className="max-w-(--breakpoint-xl) mx-auto p-4 md:p-8 flex flex-col items-start gap-2 min-h-screen">
       {/* Breadcrumb Component */}
       <div className="my-2">
         <BreadcrumbComponent links={["/shop"]} pageText={product?.name!} />

@@ -10,7 +10,7 @@ const ProductDetailsPage = () => {
   const product = productsData[0];
 
   return (
-    <div className="max-w-screen-xl mx-auto p-8 bg-white dark:bg-gray-800 rounded-lg shadow-md">
+    <div className="max-w-(--breakpoint-xl) mx-auto p-8 bg-white dark:bg-gray-800 rounded-lg shadow-md">
       <div className="py-2">
         <BreadcrumbComponent
           links={["/dashboard", "/products"]}

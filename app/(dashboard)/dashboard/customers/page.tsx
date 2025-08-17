@@ -26,7 +26,7 @@ const CustomersPage = () => {
   ];
 
   return (
-    <div className="max-w-screen-xl w-full p-4 my-4 mx-auto dark:bg-slate-900 rounded-md">
+    <div className="max-w-(--breakpoint-xl) w-full p-4 my-4 mx-auto dark:bg-slate-900 rounded-md">
       <div className="flex items-center justify-between gap-2 mb-6">
         <h2 className="text-2xl font-semibold text-gray-900 dark:text-white ">
           Customers

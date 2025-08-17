@@ -9,7 +9,7 @@ import React, { Suspense } from "react";
 
 const BlogsPage = () => {
   return (
-    <div className="max-w-screen-xl w-full my-4 mx-auto p-4">
+    <div className="max-w-(--breakpoint-xl) w-full my-4 mx-auto p-4">
       <div className="flex justify-between mb-6 gap-2">
         <h2 className="text-2xl font-semibold text-gray-900 dark:text-white">
           Blogs

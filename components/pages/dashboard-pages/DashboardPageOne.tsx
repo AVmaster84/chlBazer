@@ -7,7 +7,7 @@ import React from "react";
 
 const DashboardPageOne = () => {
   return (
-    <section className="max-w-screen-xl mx-auto py-4">
+    <section className="max-w-(--breakpoint-xl) mx-auto py-4">
       <div className="grid gap-2 lg:gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
         <StatisticsCard
           iconColor="bg-rose-500"

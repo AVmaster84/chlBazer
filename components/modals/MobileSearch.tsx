@@ -37,7 +37,7 @@ const MobileSearch = () => {
 
   if (isOpen) {
     return (
-      <div className="fixed top-0 h-[5rem] bg-white dark:bg-slate-950 w-full flex items-center justify-center z-50">
+      <div className="fixed top-0 h-20 bg-white dark:bg-slate-950 w-full flex items-center justify-center z-50">
         <div className="flex items-center gap-4 w-full mx-4">
           <form
             onSubmit={onFormSubmit}
@@ -47,7 +47,7 @@ const MobileSearch = () => {
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
               placeholder="Search Product..."
-              className="bg-transparent border-none focus-visible:ring-0 focus-visible:ring-offset-0 focus-visible:outline-none"
+              className="bg-transparent border-none focus-visible:ring-0 focus-visible:ring-offset-0 focus-visible:outline-hidden"
             />
             <button className="bg-transparent border-none" type="submit">
               <Search />

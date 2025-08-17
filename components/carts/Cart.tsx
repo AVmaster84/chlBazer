@@ -48,7 +48,7 @@ const Cart = () => {
   }
 
   return (
-    <div className="max-w-screen-xl mx-auto">
+    <div className="max-w-(--breakpoint-xl) mx-auto">
       <Sheet open={showSheet} onOpenChange={() => setShowSheet(!showSheet)}>
         <SheetTrigger>
           <div className="relative p-2 hover:bg-gray-200 dark:hover:bg-gray-800 duration-200 rounded-md mt-2">
@@ -113,9 +113,9 @@ const Cart = () => {
                   </p>
                 </div>
 
-                <Separator className="!my-2" />
+                <Separator className="my-2!" />
                 <div
-                  className="flex flex-col items-center !my-2"
+                  className="flex flex-col items-center my-2!"
                   onClick={() => setShowSheet(false)}
                 >
                   <ViewCart />

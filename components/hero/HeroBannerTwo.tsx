@@ -8,8 +8,8 @@ function HeroBannerTwo() {
   // get banner data from the server and show here
 
   return (
-    <section className="bg-gradient-to-r from-gray-500 to-gray-800 text-white lg:py-8">
-      <div className="max-w-screen-xl mx-auto relative overflow-hidden py-16 grid grid-cols-1 lg:grid-cols-3 gap-6 p-4 lg:p-8">
+    <section className="bg-linear-to-r from-gray-500 to-gray-800 text-white lg:py-8">
+      <div className="max-w-(--breakpoint-xl) mx-auto relative overflow-hidden py-16 grid grid-cols-1 lg:grid-cols-3 gap-6 p-4 lg:p-8">
         {/* Big main banner */}
         <div className=" px-4 relative z-10 lg:col-span-2">
           <div className="flex flex-col-reverse md:flex-row items-center">
@@ -29,7 +29,7 @@ function HeroBannerTwo() {
                 </Link>
               </div>
             </div>
-            <div className="relative h-[20rem] md:h-[30rem] w-full lg:mt-0">
+            <div className="relative h-80 md:h-120 w-full lg:mt-0">
               <Image
                 src={"/images/products/apple-watch-9-removebg-preview.png"}
                 alt="Tech Gadgets"

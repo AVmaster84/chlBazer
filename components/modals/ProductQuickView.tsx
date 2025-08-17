@@ -45,7 +45,7 @@ const ProductQuickViewModal = () => {
           <div className="absolute top-0 right-0 m-4 z-50">
             {/* Close button */}
             <Button
-              variant={"outline"}
+              variant={"outline-solid"}
               className="p-2 text-white rounded-full bg-black/50 hover:bg-black/70"
               onClick={closeModal}
             >
@@ -94,7 +94,7 @@ const ProductQuickViewModal = () => {
                     setColor={setSelectedColor}
                   />
 
-                  <div className="flex items-center gap-6 !my-4">
+                  <div className="flex items-center gap-6 my-4!">
                     <div className="">
                       {/* Original Price */}
                       <p className="text-muted-foreground line-through">

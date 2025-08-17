@@ -24,7 +24,7 @@ const SearchComponent = ({
   }
 
   return (
-    <div className="max-w-screen-xl mx-auto p-4 md:p-8 space-y-2">
+    <div className="max-w-(--breakpoint-xl) mx-auto p-4 md:p-8 space-y-2">
       <div className="flex flex-wrap items-center justify-between gap-2 mb-4">
       <BreadcrumbComponent links={["/shop"]} pageText={searchParams.query!} />
       <p className=" capitalize">{foundProducts.length} results found for your search <span className="text-lg font-medium">

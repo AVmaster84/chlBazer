@@ -9,7 +9,7 @@ const CategoryPage = () => {
 
 
   return (
-    <div className="bg-white dark:bg-gray-800 min-h-screen max-w-screen-xl w-full mx-auto px-4 py-12 m-2 rounded-md">
+    <div className="bg-white dark:bg-gray-800 min-h-screen max-w-(--breakpoint-xl) w-full mx-auto px-4 py-12 m-2 rounded-md">
       <div >
         <div className="flex items-center justify-between mb-6">
           <h1 className="text-xl font-bold text-gray-900 dark:text-white">
@@ -28,7 +28,7 @@ const CategoryPage = () => {
               key={category.id}
               className="bg-gray-100 dark:bg-gray-700 rounded-lg overflow-hidden shadow-md"
             >
-              <div className="relative w-full h-[16rem] p-2">
+              <div className="relative w-full h-64 p-2">
                 <Image
                   src={category.image}
                   fill

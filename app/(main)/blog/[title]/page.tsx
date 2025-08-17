@@ -27,7 +27,7 @@ const BlogTitlePage = ({ params }: { params: { title: string } }) => {
       } else if (item.type === "image") {
         // Render images with flexible positioning
         return (
-          <div key={index} className="relative w-full h-[30rem] mb-8">
+          <div key={index} className="relative w-full h-120 mb-8">
             <Image
               className="rounded-md object-contain"
               src={item.src || ''}
@@ -42,7 +42,7 @@ const BlogTitlePage = ({ params }: { params: { title: string } }) => {
 
   return (
     <section>
-      <div className="max-w-screen-xl mx-auto p-4 md:p-12">
+      <div className="max-w-(--breakpoint-xl) mx-auto p-4 md:p-12">
         <div className="py-2">
         <BreadcrumbComponent
           links={["/blog"]}
@@ -65,7 +65,7 @@ const BlogTitlePage = ({ params }: { params: { title: string } }) => {
                 {blog?.author}
               </div>
             </div>
-            <div className="relative w-full h-[30rem]">
+            <div className="relative w-full h-120">
             <Image src={blog?.image!} alt={blog?.title!} fill className="rounded-md object-contain" />
             </div>
             {/* Render Content Dynamically */}

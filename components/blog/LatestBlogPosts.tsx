@@ -9,13 +9,13 @@ const LatestBlogPosts = ({ twoColunmHeader }: { twoColunmHeader: boolean }) => {
 
   return (
     <div className="py-16 bg-gray-300 dark:bg-gray-950">
-      <div className="max-w-screen-xl mx-auto px-4 md:px-8">
+      <div className="max-w-(--breakpoint-xl) mx-auto px-4 md:px-8">
         {twoColunmHeader ? (
           <div className="flex flex-wrap items-center justify-center md:justify-between mb-12">
-            <h2 className="text-3xl md:text-5xl !text-center md:text-start font-bold  text-gray-900 dark:text-white border-l-4 p-2 border-l-rose-500 ">
+            <h2 className="text-3xl md:text-5xl text-center! md:text-start font-bold  text-gray-900 dark:text-white border-l-4 p-2 border-l-rose-500 ">
               Latest Blog Posts
             </h2>
-            <Button variant={"outline"} className="hidden md:block" size={"sm"}>
+            <Button variant={"outline-solid"} className="hidden md:block" size={"sm"}>
               <Link href={"/blog"}>Read More</Link>
             </Button>
           </div>
@@ -30,7 +30,7 @@ const LatestBlogPosts = ({ twoColunmHeader }: { twoColunmHeader: boolean }) => {
               key={post.title}
               className="bg-white dark:bg-gray-800 rounded-lg overflow-hidden shadow-md"
             >
-              <div className="relative w-full h-[15rem] mt-2">
+              <div className="relative w-full h-60 mt-2">
                 <Image
                   src={post.image as string}
                   fill

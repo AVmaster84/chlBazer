@@ -9,7 +9,7 @@ const CartPageOne = () => {
 
   return (
     <section className="p-4 md:p-8  bg-white dark:bg-gray-800">
-      <div className="max-w-screen-xl mx-auto">
+      <div className="max-w-(--breakpoint-xl) mx-auto">
         <div className="space-y-3">
           <h1 className="text-3xl lg:text-4xl font-bold text-gray-900 dark:text-white">
             Shopping Cart

@@ -205,7 +205,7 @@ const FilterProducts = () => {
         </div>
       </div>
       <div>
-        <Button onClick={clearFilter} variant={"outline"} className="w-full">
+        <Button onClick={clearFilter} variant={"outline-solid"} className="w-full">
           Clear Filter
         </Button>
       </div>

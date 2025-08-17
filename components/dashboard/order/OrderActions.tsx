@@ -33,7 +33,7 @@ const OrderActions = () => {
             View Details
           </Link>
           <Select>
-            <SelectTrigger className="w-full text-base px-4 border-none outline-none focus:ring-offset-0 focus:ring-0 focus-within:outline-none hover:bg-slate-200 dark:hover:bg-slate-900">
+            <SelectTrigger className="w-full text-base px-4 border-none outline-hidden focus:ring-offset-0 focus:ring-0 focus-within:outline-hidden hover:bg-slate-200 dark:hover:bg-slate-900">
               <SelectValue placeholder="Change Status" />
             </SelectTrigger>
             <SelectContent>

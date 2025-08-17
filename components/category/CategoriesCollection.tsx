@@ -31,7 +31,7 @@ const CategoriesCollection = () => {
 
   return (
     <section className="py-16 bg-slate-200 dark:bg-slate-800 ">
-      <div className="max-w-screen-xl px-4 md:px-8  mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 flex-wrap">
+      <div className="max-w-(--breakpoint-xl) px-4 md:px-8  mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 flex-wrap">
         {/* showing watches collection */}
         <div
           onClick={() => handleCollectionClick(watches[0].category)}
@@ -70,7 +70,7 @@ const CategoriesCollection = () => {
           </div>
           <Button
             className="mt-4 flex items-center gap-4 text-lg font-semibold w-full"
-            variant={"outline"}
+            variant={"outline-solid"}
             size={"lg"}
           >
             <ArrowRight /> Collections
@@ -115,7 +115,7 @@ const CategoriesCollection = () => {
           </div>
           <Button
             className="mt-4 flex items-center gap-4 text-lg font-semibold w-full"
-            variant={"outline"}
+            variant={"outline-solid"}
             size={"lg"}
           >
             <ArrowRight /> Collections
@@ -160,7 +160,7 @@ const CategoriesCollection = () => {
           </div>
           <Button
             className="mt-4 flex items-center gap-4 text-lg font-semibold w-full"
-            variant={"outline"}
+            variant={"outline-solid"}
             size={"lg"}
           >
             <ArrowRight /> Collections

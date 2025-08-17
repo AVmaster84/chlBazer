@@ -35,7 +35,7 @@ const BannerForm: React.FC = () => {
   };
 
   return (
-    <div className="max-w-screen-xl w-full mx-auto bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 my-4">
+    <div className="max-w-(--breakpoint-xl) w-full mx-auto bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 my-4">
       <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mb-6">
         Add Banner
       </h2>

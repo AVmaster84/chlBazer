@@ -19,7 +19,7 @@ const HeroBannerThree = () => {
             Shop Now
           </button>
         </div>
-        <div className="relative h-[20rem] lg:w-1/2 mt-8 lg:mt-0">
+        <div className="relative h-80 lg:w-1/2 mt-8 lg:mt-0">
           <Image
             src={"/images/category/headphone.png"}
             alt="Tech Gadgets"

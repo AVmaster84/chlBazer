@@ -51,7 +51,7 @@ const MyOrdersPage = () => {
               <div>
                 <h2 className='text-lg font-medium my-2'>Ordered Items</h2>
                 {order.items.map((item) => (
-                  <div key={item.id} className="flex flex-col md:flex-row justify-between items-center gap-2 p-2 shadow-sm mb-2">
+                  <div key={item.id} className="flex flex-col md:flex-row justify-between items-center gap-2 p-2 shadow-xs mb-2">
                     <Image src={item.image} alt="Product" width={64} height={64} className="w-16 h-16 object-cover rounded-lg" />
                       <p className="text-gray-800 dark:text-white">{item.name}</p>
                       <p className="text-gray-700 dark:text-gray-300">Quantity: {item.quantity}</p>

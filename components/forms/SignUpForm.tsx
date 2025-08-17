@@ -40,7 +40,7 @@ const SignUpForm = () => {
           Create an Account
         </h2>
         <div>
-          <Button className="w-full p-6 flex items-center justify-center gap-2 text-lg rounded-lg focus:outline-none mt-6">
+          <Button className="w-full p-6 flex items-center justify-center gap-2 text-lg rounded-lg focus:outline-hidden mt-6">
             <FaGoogle size={25} /> Sign Up With Google
           </Button>
           <p className="text-lg font-bold my-2 text-center">OR</p>
@@ -59,7 +59,7 @@ const SignUpForm = () => {
               placeholder="shohag miah"
               className={`w-full border ${
                 errors.name ? "border-red-500" : "border-gray-300"
-              } dark:border-gray-700 rounded-lg px-4 py-2 focus:outline-none`}
+              } dark:border-gray-700 rounded-lg px-4 py-2 focus:outline-hidden`}
               {...register("name")}
             />
             {errors.name && (
@@ -81,7 +81,7 @@ const SignUpForm = () => {
               id="email"
               className={`w-full border ${
                 errors.email ? "border-red-500" : "border-gray-300"
-              } dark:border-gray-700 rounded-lg px-4 py-2 focus:outline-none`}
+              } dark:border-gray-700 rounded-lg px-4 py-2 focus:outline-hidden`}
               {...register("email")}
             />
             {errors.email && (
@@ -103,7 +103,7 @@ const SignUpForm = () => {
               placeholder="******"
               className={`w-full border ${
                 errors.password ? "border-red-500" : "border-gray-300"
-              } dark:border-gray-700 rounded-lg px-4 py-2 focus:outline-none`}
+              } dark:border-gray-700 rounded-lg px-4 py-2 focus:outline-hidden`}
               {...register("password")}
             />
             {errors.password && (
@@ -125,7 +125,7 @@ const SignUpForm = () => {
               placeholder="******"
               className={`w-full border ${
                 errors.confirmPassword ? "border-red-500" : "border-gray-300"
-              } dark:border-gray-700 rounded-lg px-4 py-2 focus:outline-none`}
+              } dark:border-gray-700 rounded-lg px-4 py-2 focus:outline-hidden`}
               {...register("confirmPassword")}
             />
             {errors.confirmPassword && (
@@ -136,7 +136,7 @@ const SignUpForm = () => {
           </div>
           <Button
             type="submit"
-            className="w-full bg-blue-500 dark:bg-blue-600 text-white py-3 px-6 rounded-lg hover:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none"
+            className="w-full bg-blue-500 dark:bg-blue-600 text-white py-3 px-6 rounded-lg hover:bg-blue-600 dark:hover:bg-blue-700 focus:outline-hidden"
           >
             Sign Up
           </Button>

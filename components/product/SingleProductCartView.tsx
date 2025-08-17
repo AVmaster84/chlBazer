@@ -42,7 +42,7 @@ const SingleProductCartView = ({ product }: { product: Product }) => {
       className="relative border rounded-xl shadow-lg overflow-hidden group"
     >
       <div className={`w-full bg-gray-200 overflow-hidden`}>
-        <div className="relative w-full h-[18rem] group-hover:scale-110 transition-all duration-300 rounded-md overflow-hidden">
+        <div className="relative w-full h-72 group-hover:scale-110 transition-all duration-300 rounded-md overflow-hidden">
           <Image className="object-contain" src={images[0]} alt={name} fill />
           {stockItems === 0 ? (
             <p className="py-1 px-4 text-sm font-bold rounded-sm bg-rose-500 text-white absolute top-2 right-2">

@@ -17,7 +17,7 @@ const ProductQuantityChange = ({
         disabled={quantity === 1}
         onClick={() => setQuantity(quantity - 1)}
         className="p-4 rounded-full"
-        variant={"outline"}
+        variant={"outline-solid"}
       >
         <Minus />
       </Button>
@@ -25,7 +25,7 @@ const ProductQuantityChange = ({
       <Button
         onClick={() => setQuantity(quantity + 1)}
         className="p-4 rounded-full"
-        variant={"outline"}
+        variant={"outline-solid"}
       >
         <Plus />
       </Button>

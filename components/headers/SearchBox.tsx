@@ -41,7 +41,7 @@ const SearchBox = () => {
       <Input
         value={searchTerm}
         onChange={(e) => setSearchTerm(e.target.value)}
-        className="p-2 rounded-md w-full lg:w-64 border-none outline-none focus:outline-none focus-visible:ring-offset-0 focus-visible:ring-0"
+        className="p-2 rounded-md w-full lg:w-64 border-none outline-hidden focus:outline-hidden focus-visible:ring-offset-0 focus-visible:ring-0"
         placeholder="Search.."
       />
       <Button

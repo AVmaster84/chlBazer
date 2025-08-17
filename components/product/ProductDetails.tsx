@@ -72,14 +72,14 @@ const ProductDetails = ({ product }: { product: Product }) => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col md:flex-row items-center gap-4 !my-6">
+      <div className="flex flex-col md:flex-row items-center gap-4 my-6!">
         {/* Add To Cart Button */}
         <AddToCartBtn product={{ ...product, quantity, selectedColor }} />
         {/* Buy Now Button */}
         <BuyNowBtn product={{ ...product, quantity, selectedColor }} />
       </div>
       {/* Separator */}
-      <Separator className="!mt-4" />
+      <Separator className="mt-4!" />
       {/* Product Tab */}
       <ProductTab aboutItem={product?.aboutItem!} reviews={product?.reviews} />
     </div>

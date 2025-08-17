@@ -45,7 +45,7 @@ const OrdersPage = () => {
   ];
 
   return (
-    <div className="max-w-screen-xl mx-auto w-full bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 my-4 ">
+    <div className="max-w-(--breakpoint-xl) mx-auto w-full bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 my-4 ">
       <div className="flex flex-wrap items-center justify-between gap-2 mb-4">
         <h2 className="text-lg font-semibold text-gray-900 dark:text-white ">
           Orders

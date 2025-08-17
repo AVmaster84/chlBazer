@@ -9,7 +9,7 @@ const ProductsCollectionTwo = () => {
   const data = productsData;
 
   return (
-    <section className="max-w-screen-xl mx-auto py-16 px-4 md:px-8 w-full">
+    <section className="max-w-(--breakpoint-xl) mx-auto py-16 px-4 md:px-8 w-full">
       <Tabs defaultValue="new-arrivals" className="w-full space-y-8 mx-0">
         <TabsList className="font-semibold bg-transparent w-full text-center">
           <TabsTrigger value="new-arrivals" className="md:text-xl">

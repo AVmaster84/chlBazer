@@ -9,7 +9,7 @@ import { cn } from "@/lib/utils";
 const SpecialDeals = ({ textCenter }: { textCenter: boolean }) => {
   return (
     <section className="py-16 bg-slate-200 dark:bg-slate-800">
-      <div className="max-w-screen-xl mx-auto px-4 lg:px-8">
+      <div className="max-w-(--breakpoint-xl) mx-auto px-4 lg:px-8">
         <h2
           className={cn(
             "text-3xl lg:text-5xl w-fit mx-auto  mb-12 p-2 font-bold border-l-4 border-rose-500",
@@ -32,7 +32,7 @@ const SpecialDeals = ({ textCenter }: { textCenter: boolean }) => {
                   className="rounded-lg object-contain lg:object-cover"
                 />
               </div>
-              <div className="flex flex-col flex-grow">
+              <div className="flex flex-col grow">
                 {/* special deal countdown timer */}
                 <Countdown
                   renderer={({ days, hours, minutes, seconds }) => {

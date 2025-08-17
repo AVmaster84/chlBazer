@@ -9,7 +9,7 @@ const BannerPage = () => {
 
   return (
     <div className="bg-white dark:bg-gray-800 min-h-screen w-full my-4 rounded-md">
-      <div className="max-w-screen-xl w-full mx-auto px-4 py-6">
+      <div className="max-w-(--breakpoint-xl) w-full mx-auto px-4 py-6">
         <div className='flex items-center justify-between mb-6'>
         <h1 className="text-3xl font-bold text-gray-900 dark:text-white ">Manage Banners</h1>
         <div className="flex justify-end">
@@ -19,7 +19,7 @@ const BannerPage = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           {bannerData.map((banner) => (
             <div key={banner.link} className="bg-gray-100 dark:bg-gray-700 rounded-lg overflow-hidden shadow-md">
-              <div className='relative w-full h-[16rem]'>
+              <div className='relative w-full h-64'>
               <Image src={banner.images[0]} fill alt={banner.title} className="w-full h-64 object-contain" />
               </div>
               <div className="p-6">

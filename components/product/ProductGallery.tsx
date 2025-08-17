@@ -21,8 +21,8 @@ const ProductGallery = ({ images, isInModal }: ProductGalleryProps) => {
         className={cn(
           "relative w-full rounded-xl overflow-hidden bg-gray-200",
           isInModal
-            ? "w-full lg:min-w-[30rem] h-[15rem] lg:h-[25rem]"
-            : "w-full lg:min-w-[30rem] h-[20rem] lg:h-[30rem]"
+            ? "w-full lg:min-w-120 h-60 lg:h-100"
+            : "w-full lg:min-w-120 h-80 lg:h-120"
         )}
       >
         <Image

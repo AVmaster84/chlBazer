@@ -63,7 +63,7 @@ const CartItemsDetails = () => {
               disabled={item?.quantity === 1}
               onClick={() => updateQuantity(item?.id, item?.quantity - 1)}
               size={"sm"}
-              variant={"outline-solid"}
+              variant={"ghost"}
             >
               <Minus />
             </Button>
@@ -71,7 +71,7 @@ const CartItemsDetails = () => {
             <Button
               onClick={() => updateQuantity(item.id, item.quantity + 1)}
               size={"sm"}
-              variant={"outline-solid"}
+              variant={"ghost"}
             >
               <Plus />
             </Button>
@@ -88,7 +88,7 @@ const CartItemsDetails = () => {
         </div>
       ))}
       {cartItems?.length >= 1 && (
-        <Button variant={'outline-solid'} className="my-2" onClick={clearCart}>Clear Cart</Button>
+        <Button variant={'ghost'} className="my-2" onClick={clearCart}>Clear Cart</Button>
       )}
     </div>
   );

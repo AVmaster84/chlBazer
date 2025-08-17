@@ -1,56 +1,66 @@
 export const  testinomials = [
     {
         id:1,
-        name:'John doe',
+        name:'Nhân cách 1',
         image:'/images/people/person.jpg',
-        designation:'CEO, Company Inc.',
-        content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac
-        orci ac lorem accumsan tristique. Nullam ac tortor a sem tempor
-        faucibus id quis ipsum.`
+        designation:'CEO, Avenger Company Inc.',
+        content: `Quá đỉnh, đẹp trai vãi nồi.`
     },
     {
         id:2,
-        name:'Shohag miah',
+        name:'Nhân cách 2',
         image:'/images/people/person.jpg',
-        designation:'CEO, Binarybard Inc.',
-        content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac
-        orci ac lorem accumsan tristique. Nullam ac tortor a sem tempor
-        faucibus id quis ipsum.`
+        designation:'CEO, Stark Industrial.',
+        content: `thật không thể tin được`
     },
     {
         id:3,
-        name:'janes',
+        name:'Nhân cách 3',
         image:'/images/people/person.jpg',
-        designation:'CTO, Company Inc.',
-        content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac
-        orci ac lorem accumsan tristique. Nullam ac tortor a sem tempor
-        faucibus id quis ipsum.`
+        designation:'Strange, Time Stone keeper',
+        content: `Không thể tưởng tượng`
     },
     {
         id:4,
-        name:'John doe',
+        name:'Nhân cách 1',
         image:'/images/people/person.jpg',
-        designation:'CEO, Company Inc.',
-        content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac
-        orci ac lorem accumsan tristique. Nullam ac tortor a sem tempor
-        faucibus id quis ipsum.`
+        designation:'CEO, Avenger Company Inc.',
+        content: `Quá đỉnh, đẹp trai vãi nồi.`
     },
     {
         id:5,
-        name:'John doe',
+        name:'Nhân cách 2',
         image:'/images/people/person.jpg',
-        designation:'CEO, Company Inc.',
-        content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac
-        orci ac lorem accumsan tristique. Nullam ac tortor a sem tempor
-        faucibus id quis ipsum.`
+        designation:'CEO, Stark Industrial.',
+        content: `thật không thể tin được`
     },
     {
         id:6,
-        name:'John doe',
+        name:'Nhân cách 3',
         image:'/images/people/person.jpg',
-        designation:'CEO, Company Inc.',
-        content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac
-        orci ac lorem accumsan tristique. Nullam ac tortor a sem tempor
-        faucibus id quis ipsum.`
+        designation:'Strange, Time Stone keeper',
+        content: `Không thể tưởng tượng`
     },
+    {
+        id:7,
+        name:'Nhân cách 1',
+        image:'/images/people/person.jpg',
+        designation:'CEO, Avenger Company Inc.',
+        content: `Quá đỉnh, đẹp trai vãi nồi.`
+    },
+    {
+        id:8,
+        name:'Nhân cách 2',
+        image:'/images/people/person.jpg',
+        designation:'CEO, Stark Industrial.',
+        content: `thật không thể tin được`
+    },
+    {
+        id:9,
+        name:'Nhân cách 3',
+        image:'/images/people/person.jpg',
+        designation:'Strange, Time Stone keeper',
+        content: `Không thể tưởng tượng`
+    },
+
 ]

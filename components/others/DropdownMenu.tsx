@@ -15,23 +15,11 @@ const DropdownMenuComponent = () => {
     <div>
       <DropdownMenu>
         <DropdownMenuTrigger className="flex items-center gap-2 font-medium px-4 py-1 rounded-full hover:bg-gray-200 dark:hover:bg-gray-800">
-          Pages <ChevronDown />
+          Các trang <ChevronDown />
         </DropdownMenuTrigger>
         <DropdownMenuContent className="p-6 space-y-2">
           <DropdownMenuItem>
-            <Link href={"/homepagetwo"}>Home Page Two</Link>
-          </DropdownMenuItem>
-          <DropdownMenuItem>
-            <Link href={"/shoppagetwo"}>Shop Page Two</Link>
-          </DropdownMenuItem>
-          <DropdownMenuItem>
             <Link href={"/blogpageone"}>Blog Page One</Link>
-          </DropdownMenuItem>
-          <DropdownMenuItem>
-            <Link href={"/blogpagetwo"}>Blog Page Two</Link>
-          </DropdownMenuItem>
-          <DropdownMenuItem>
-            <Link href={"/dashboard"}>Dashboard Page</Link>
           </DropdownMenuItem>
           <DropdownMenuItem>
             <Link href={"/sign-up"}>Sign Up Page</Link>

@@ -8,12 +8,12 @@ const BenefitsSection = ({ textCenter }: { textCenter: boolean }) => {
         {!textCenter ? (
           <div className="flex flex-wrap items-center justify-center md:justify-between mb-12">
             <h2 className="text-3xl md:text-5xl text-center! md:text-start font-bold  text-gray-900 dark:text-white border-l-4 p-2 border-l-rose-500 ">
-              Discover Our Advantages
+              Ưu đãi khi mua sắm ở công ty chúng  tôi
             </h2>
           </div>
         ) : (
           <h2 className="text-3xl md:text-5xl font-bold text-start md:text-center text-gray-900 dark:text-white mb-12 border-l-4  border-l-rose-500 w-fit mx-auto p-2">
-            Discover Our Advantages
+            Ưu đãi khi mua sắm ở công ty chúng  tôi
           </h2>
         )}
         <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6">
@@ -23,38 +23,34 @@ const BenefitsSection = ({ textCenter }: { textCenter: boolean }) => {
               Free Shipping
             </h3>
             <p className="text-gray-700 dark:text-gray-300 text-center">
-              Enjoy free shipping on all orders with little minimum purchase
-              required.
+              Mua sắm thoải mái freeship ở Shopee, ở đây không có
             </p>
           </div>
           <div className="flex flex-col items-center space-y-4 bg-white dark:bg-gray-700 rounded-lg p-6 shadow-md">
             <RefreshCcw size={48} className="text-blue-500" />
             <h3 className="text-xl font-semibold text-gray-900 dark:text-white">
-              Easy Returns
+              Hoàn hàng dễ dàng
             </h3>
             <p className="text-gray-700 dark:text-gray-300 text-center">
-              Return any item within 30 days for a full refund, no questions
-              asked.
+              Cũng có ở shopee
             </p>
           </div>
           <div className="flex flex-col items-center space-y-4 bg-white dark:bg-gray-700 rounded-lg p-6 shadow-md">
             <DollarSign size={48} className="text-blue-500" />
             <h3 className="text-xl font-semibold text-gray-900 dark:text-white">
-              Best Prices
+              Giá tốt nhất
             </h3>
             <p className="text-gray-700 dark:text-gray-300 text-center">
-              Shop with confidence knowing you&apos;re getting the best prices
-              guaranteed.
+              Không chắc
             </p>
           </div>
           <div className="flex flex-col items-center space-y-4 bg-white dark:bg-gray-700 rounded-lg p-6 shadow-md">
             <Users size={48} className="text-blue-500" />
             <h3 className="text-xl font-semibold text-gray-900 dark:text-white">
-              24/7 Support
+              Hỗ trợ khách hàng 24/7
             </h3>
             <p className="text-gray-700 dark:text-gray-300 text-center">
-              Our customer support team is available round the clock to assist
-              you.
+              Rồi mình ngủ giờ nào
             </p>
           </div>
         </div>

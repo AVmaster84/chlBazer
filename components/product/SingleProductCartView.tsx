@@ -7,7 +7,7 @@ import ProductOptions from "./ProductOptions";
 import { Product } from "@/types";
 import { calculateDiscount } from "@/lib/calculateDiscount";
 import { useRouter } from "next/navigation";
-
+import { formatPrice } from "@/lib/formatPrice";
 const SingleProductCartView = ({ product }: { product: Product }) => {
   const [isMounted, setIsMounted] = useState(false);
 
@@ -75,9 +75,9 @@ const SingleProductCartView = ({ product }: { product: Product }) => {
         </h3>
         <RatingReview rating={rating} review={reviews.length} />
         <div className="text-lg font-bold space-x-3 ">
-          <span className="line-through text-muted-foreground">${price}</span>
+          <span className="line-through text-muted-foreground">{price}</span>
           <span className="text-xl font-bold text-green-500">
-            ${discountedPrice.toFixed(2)}
+            {discountedPrice.toFixed(0)}
           </span>
         </div>
       </div>

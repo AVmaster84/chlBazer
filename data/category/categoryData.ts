@@ -2,25 +2,25 @@
     { 
       id: 1, 
       name: "Smartphones", 
-      description: "Discover the latest smartphones with cutting-edge features.", 
+      description: "Điện thoại thông minh.", 
       image: "/images/products/galaxy-15-removebg-preview.png"
     },
     { 
       id: 2, 
       name: "Computers", 
-      description: "Explore powerful laptops and computers for work and play.", 
+      description: "Máy tính cá nhân", 
       image: "/images/products/dell-gaming-removebg-preview.png"
     },
     { 
       id: 3, 
       name: "Headphones", 
-      description: "Tai nghe c", 
+      description: "Tai nghe high-end", 
       image: "/images/products/senheiser-removebg-preview.png"
     },
     { 
       id: 4, 
       name: "Watches", 
-      description: "Level up your gaming experience with consoles and accessories.", 
+      description: "Thiết bị đeo thông minh", 
       image: "/images/products/apple-watch-9-3-removebg-preview.png"
     },
     // Add more category data as needed

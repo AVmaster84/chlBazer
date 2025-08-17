@@ -11,6 +11,9 @@ import ProductColorSelection from "./ProductColorSelection";
 import { Product } from "@/types";
 import Link from "next/link";
 import { calculateDiscount } from "@/lib/calculateDiscount";
+import { formatPrice } from "@/lib/formatPrice";
+
+
 
 const ProductDetails = ({ product }: { product: Product }) => {
   const [quantity, setQuantity] = useState(1);
@@ -58,12 +61,13 @@ const ProductDetails = ({ product }: { product: Product }) => {
         <div className="">
           {/* Original Price */}
           <p className="text-muted-foreground line-through text-2xl">
-            ${product?.price}
+            {formatPrice(product?.price)}
           </p>
           <div className="flex items-center gap-4">
             {/* Discounted Price */}
+            
             <p className="text-3xl font-bold text-green-500 border-green-500 border py-2 px-6 rounded-lg">
-              ${calculateDiscount(product.price, product.discount)}
+              {calculateDiscount(product.price, product.discount)} 
             </p>
             <ProductQuantityChange
               quantity={quantity}

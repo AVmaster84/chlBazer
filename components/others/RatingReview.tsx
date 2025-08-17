@@ -9,7 +9,7 @@ const RatingReview = ({rating, review}:{rating:number,review:number}) => {
             <Star className={`${rating >= i + 1 ? 'text-yellow-400' : 'text-gray-500'}`} key={i} size={15}/>
         ))}
         <span className='h-8 w-[2px] bg-gray-500 mx-2'/>
-        <p className='text-black dark:text-white text-lg'>({review}) Reviews</p>
+        <p className='text-black dark:text-white text-lg'>({review}) Đánh giá</p>
     </div>
   )
 }

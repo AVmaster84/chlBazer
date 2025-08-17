@@ -46,7 +46,7 @@ const MobileSearch = () => {
             <Input
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
-              placeholder="Search Product..."
+              placeholder="Tìm sản phẩm..."
               className="bg-transparent border-none focus-visible:ring-0 focus-visible:ring-offset-0 focus-visible:outline-hidden"
             />
             <button className="bg-transparent border-none" type="submit">

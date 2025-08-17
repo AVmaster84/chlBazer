@@ -42,8 +42,8 @@ const HeaderOne = () => {
             <Link
               key={link.link}
               className={cn(
-                "font-medium px-4 py-1 rounded-full hover:bg-gray-200 dark:hover:bg-gray-800",
-                link.isActive && "bg-gray-200 dark:bg-gray-800  rounded-full"
+                "font-medium px-4 py-1 rounded-full hover:bg-gray-200 dark:bg-gray-800",
+                link.isActive && "bg-gray-200 dark:bg-gray-800  rounded-2xl"
               )}
               href={link.link}
             >

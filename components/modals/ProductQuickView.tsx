@@ -81,8 +81,8 @@ const ProductQuickViewModal = () => {
                         Đang tạm hết
                       </p>
                     ) : (
-                      <p className="text-lg w-fit rounded-md text-muted-foreground">
-                        Sẵn kho {product.stockItems}
+                      <p className="text-lg w-fit rounded-md font-bold text-muted-foreground">
+                        Còn hàng {product.stockItems}
                       </p>
                     )}
                   </div>

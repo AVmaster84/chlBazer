@@ -37,7 +37,7 @@ const MobileSearch = () => {
 
   if (isOpen) {
     return (
-      <div className="fixed top-0 h-20 bg-white dark:bg-slate-950 w-full flex items-center justify-center z-50">
+      <div className="fixed top-0 h-20 bg-slate-100 dark:bg-slate-950 w-full flex items-center justify-center z-50">
         <div className="flex items-center gap-4 w-full mx-4">
           <form
             onSubmit={onFormSubmit}

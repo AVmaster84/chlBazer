@@ -20,7 +20,7 @@ const HeroBannerOne = () => {
   // get banners data from server then display here
 
   return (
-    <section className="bg-linear-to-r from-slate-50 to-slate-100 dark:from-slate-800 dark:to-slate-900 ">
+    <section className="bg-linear-to-r from-slate-100 to-slate-200 dark:from-slate-800 dark:to-slate-900 ">
       <div className="max-w-(--breakpoint-xl) mx-auto py-15 px-4 md:px-8 ">
         <Carousel
           plugins={[
@@ -72,10 +72,10 @@ const HeroBannerOne = () => {
                 >
                   {/* main product image */}
                   <Image
-                    className="bg-transparent rotate-6 relative z-50 object-contain"
+                    className="bg-transparent rotate-4 relative z-50 object-contain"
                     src={data.images[0]}
-                    width={500}
-                    height={500}
+                    width={600}
+                    height={600}
                     alt="banner image"
                   />
                 </motion.div>

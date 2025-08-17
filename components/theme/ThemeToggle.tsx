@@ -19,19 +19,19 @@ export function ThemeToggle() {
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
         <Button variant="link" className="hover:bg-gray-200 dark:hover:bg-gray-800 duration-200  p-2 " size="icon">
-          <Sun className="h-6 w-6 rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0" />
+          <Sun className="h-6 w-6 rotate-0  scale-100 transition-all dark:-rotate-90 dark:scale-0" />
           <Moon className="absolute h-6 w-6 rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100" />
           <span className="sr-only">Toggle theme</span>
         </Button>
       </DropdownMenuTrigger>
-      <DropdownMenuContent align="end" className="rounded-xl">
-        <DropdownMenuItem onClick={() => setTheme("light")}>
+      <DropdownMenuContent align="end" className="rounded-xl bg-slate-200 dark:bg-background">
+        <DropdownMenuItem className="hover:bg-slate-500 dark:hover:bg-slate-200/50 dark:hover:text-black" onClick={() => setTheme("light")}>
           Light
         </DropdownMenuItem>
-        <DropdownMenuItem onClick={() => setTheme("dark")}>
+        <DropdownMenuItem className="hover:bg-slate-500 dark:hover:bg-slate-200/50 dark:hover:text-black" onClick={() => setTheme("dark")}>
           Dark
         </DropdownMenuItem>
-        <DropdownMenuItem onClick={() => setTheme("system")}>
+        <DropdownMenuItem className="hover:bg-slate-500 dark:hover:bg-slate-200/50 dark:hover:text-black" onClick={() => setTheme("system")}>
           System
         </DropdownMenuItem>
       </DropdownMenuContent>

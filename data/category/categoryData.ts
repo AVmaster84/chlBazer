@@ -26,7 +26,7 @@
     // Add more category data as needed
     {
       id: 5,
-      name: "Camera IP",
+      name: "CameraIP",
       description: "Network Camera",
       image: "/images/products/HFW2449M-S-B-PRO.png"
     },

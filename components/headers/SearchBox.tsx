@@ -36,7 +36,7 @@ const SearchBox = () => {
   return (
     <form
       onSubmit={onFormSubmit}
-      className="flex items-start border-2 w-full rounded-lg"
+      className="flex items-start border-1 w-full rounded-lg"
     >
       <Input
         value={searchTerm}

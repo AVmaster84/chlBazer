@@ -539,8 +539,8 @@ export const productsData = [
   },
   {
     id: 18,
-    name: "Camera IP Dahua B1E29-A-IL",
-    category: "Camera IP",
+    name: "Dahua B1E29-A-IL",
+    category: "CameraIP",
     description: "Camera WiFi 2 ống kính quay quét trong nhà 10MP Hero Dual",
     aboutItem: [
         "2 ống kính với độ phân giải 10.0MP (5.0MP cho ống kính cố định và 5.0 MP cho ống kính quay quét)",
@@ -574,7 +574,7 @@ export const productsData = [
   {
     id: 19,
     name: "Camera DH-HDW1239V-PV",
-    category: "Camera IP",
+    category: "CameraIP",
     description: "Camera Dome 2.0MP có mic báo động",
     aboutItem: [
       "Độ phân giải 2MP 1/2.8″ CMOS (1920 × 1080)@25/30 fps",
@@ -607,7 +607,7 @@ export const productsData = [
   {
     id: 20,
     name: "HFW-1239MP-A-IL",
-    category: "Camera IP",
+    category: "CameraIP",
     description: "Camera Thân cố định 2.0MP có mic",
     aboutItem: [
       'Độ phân giải 2MP 1/2.8″ CMOS (1920 × 1080)@25/30 fps',

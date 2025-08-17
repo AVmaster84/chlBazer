@@ -93,7 +93,7 @@ const MobileHeader = () => {
                     key={link.link}
                     href={link.link}
                     className={cn(
-                      "flex items-center gap-2 p-2 rounded-md hover:bg-gray-200 dark:hover:bg-gray-800",
+                      "flex items-center gap-2 p-2 rounded-md hover:bg-slate-700 hover:text-white dark:hover:bg-gray-800",
                       link.isActive && "bg-gray-200  dark:bg-gray-800"
                     )}
                   >
@@ -103,7 +103,7 @@ const MobileHeader = () => {
                 ))}
                 <Separator className="my-2!" />
                 {/* theme toggle option here */}
-                <div className="flex items-center gap-2">
+                <div className="flex items-center gap-2 rounded-md">
                   <ThemeToggle />
                   <p>Change Theme</p>
                 </div>
@@ -115,7 +115,7 @@ const MobileHeader = () => {
                     key={link.link}
                     href={link.link}
                     className={cn(
-                      "flex items-center gap-2 p-2 rounded-md hover:bg-gray-200 dark:hover:bg-gray-800",
+                      "flex items-center gap-2 p-2 rounded-md hover:bg-slate-600 hover:text-white dark:hover:bg-gray-800",
                       link.isActive && "bg-gray-200  dark:bg-gray-800"
                     )}
                   >
@@ -123,7 +123,7 @@ const MobileHeader = () => {
                   </Link>
                 ))}
                 <Separator className="my-2!" />
-                <button className="flex items-start justify-start gap-2 p-2 bg-transparent hover:opacity-50">
+                <button className="flex items-start justify-start gap-2 p-2 hover:bg-slate-500 hover:text-white dark:hover:bg-gray-800 rounded-md">
                   <LogOut />
                   Logout
                 </button>

@@ -21,6 +21,10 @@ const CategoriesCollection = () => {
     (item) => item.category.toLowerCase() === "watches"
   );
 
+  const cameraips = productsData.filter(
+    (item) => item.category.toLowerCase() === "cameraip"
+  );
+
   const headphones = productsData.filter(
     (item) => item.category.toLowerCase() === "headphones"
   );
@@ -33,36 +37,38 @@ const CategoriesCollection = () => {
     <section className="py-16 bg-slate-200 dark:bg-slate-800 ">
       <div className="max-w-(--breakpoint-xl) px-4 md:px-8  mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 flex-wrap">
         {/* showing watches collection */}
+        {/* Show camera IP collection */}
         <div
-          onClick={() => handleCollectionClick(watches[0].category)}
-          className="flex flex-col gap-4 items-start justify-between p-4 md:p-8 rounded-xl bg-white dark:bg-slate-900 shadow-md"
+          onClick={() => handleCollectionClick(cameraips[0].category)}
+          className="flex flex-col gap-4 items-start justify-between p-4 md:p-8 rounded-xl bg-stone-300/20 dark:bg-slate-900 shadow-lg"
         >
-          <h2 className="text-xl md:text-2xl text-center font-semibold my-4 w-full">
-            Best Deals For You On <span className="text-2xl font-bold">{watches[0].category}</span>
+          <h2 className="text-2xl md:text-4xl text-center font-extrabold my-4 w-full">
+            Camera IP 
+            {/* <span className="text-2xl font-bold">{cameraips[0].category}</span> */}
+            <span className="text-2xl font-semibold"> đang khuyến mãi</span>
           </h2>
           <div className="grid grid-cols-2 gap-4 place-content-center w-full">
-            {watches?.slice(0, 4)?.map((watch) => (
+            {cameraips?.slice(0, 4)?.map((cameraip) => (
               <div
-                key={watch.id}
-                className="flex flex-col items-center justify-center text-center gap-2"
+                key={cameraip.id}
+                className="flex flex-col items-center justify-center text-center gap-2 border-1 rounded-lg border-stone-200 shadow-md"
               >
+                
                 <Image
-                  src={watch.images[0]}
-                  alt={watch.name}
+                  src={cameraip.images[0]}
+                  alt={cameraip.name}
                   width={100}
                   height={100}
                   className="object-contain rounded-md"
                 />
                 <div className="flex items-center flex-col">
-                  <p className="bg-rose-600 p-1 text-sm text-white whitespace-nowrap w-fit">
-                    {watch.discount}% off
-                  </p>
+                  
                   <Link
-                    href={`/shop/${watch.id}`}
+                    href={`/shop/${cameraip.id}`}
                     onClick={(e) => e.stopPropagation()}
-                    className=" font-semibold hover:text-green-500"
+                    className=" font-semibold hover:text-blue-500"
                   >
-                    {watch.name.slice(0, 15)}...
+                    {cameraip.name.slice(0, 18)}
                   </Link>
                 </div>
               </div>
@@ -70,7 +76,7 @@ const CategoriesCollection = () => {
           </div>
           <Button
             className="mt-4 flex items-center gap-4 text-lg font-semibold w-full"
-            variant={"outline-solid"}
+            variant={"outline"}
             size={"lg"}
           >
             <ArrowRight /> Collections
@@ -80,7 +86,7 @@ const CategoriesCollection = () => {
         {/* showing headphones collection */}
         <div
           onClick={() => handleCollectionClick(headphones[0].category)}
-          className="flex flex-col gap-4 items-start justify-between p-4 md:p-8 rounded-xl bg-white dark:bg-slate-900 shadow-md"
+          className="flex flex-col gap-4 items-start justify-between p-4 md:p-8 rounded-xl bg-slate-200 dark:bg-slate-900 shadow-md"
         >
           <h2 className="text-xl md:text-2xl text-center font-semibold my-4 w-full">
             Best Deals For You On <span className="text-2xl font-bold">{headphones[0].category}</span>
@@ -115,7 +121,7 @@ const CategoriesCollection = () => {
           </div>
           <Button
             className="mt-4 flex items-center gap-4 text-lg font-semibold w-full"
-            variant={"outline-solid"}
+            variant={"outline"}
             size={"lg"}
           >
             <ArrowRight /> Collections
@@ -125,7 +131,7 @@ const CategoriesCollection = () => {
         {/* showing computers collection */}
         <div
           onClick={() => handleCollectionClick(computers[0].category)}
-          className="flex flex-col gap-4 items-start justify-between p-4 md:p-8 rounded-xl bg-white dark:bg-slate-900 shadow-md"
+          className="flex flex-col gap-4 items-start justify-between p-4 md:p-8 rounded-xl bg-slate-200 dark:bg-slate-900 shadow-md"
         >
           <h2 className="text-xl md:text-2xl text-center font-semibold my-4 w-full">
             Best Deals For You On <span className="text-2xl font-bold">{computers[0].category}</span>
@@ -160,7 +166,7 @@ const CategoriesCollection = () => {
           </div>
           <Button
             className="mt-4 flex items-center gap-4 text-lg font-semibold w-full"
-            variant={"outline-solid"}
+            variant={"outline"}
             size={"lg"}
           >
             <ArrowRight /> Collections

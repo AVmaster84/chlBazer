@@ -32,7 +32,7 @@ const ProductViewChange = ({
           {`showing ${((currentPage - 1) * itemPerPage) + 1}-${
             itemPerPage * currentPage
           } of ${totalPages * itemPerPage}`}{" "}
-          results
+          kết quả
         </p>
       </div>
       

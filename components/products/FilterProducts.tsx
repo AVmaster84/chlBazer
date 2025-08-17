@@ -109,7 +109,7 @@ const FilterProducts = () => {
         <h3 className="text-lg font-medium my-2">By Price</h3>
         <div className="flex items-center justify-between gap-4">
           <div>
-            <Label htmlFor="min">Min :</Label>
+            <Label htmlFor="min">Thấp nhất :</Label>
             <Input
               id="min"
               placeholder="$10"
@@ -120,7 +120,7 @@ const FilterProducts = () => {
             />
           </div>
           <div>
-            <Label htmlFor="max">Max :</Label>
+            <Label htmlFor="max">Tối đa :</Label>
             <Input
               id="max"
               placeholder="$2000"
@@ -145,7 +145,7 @@ const FilterProducts = () => {
 
       {/* filter by category */}
       <div>
-        <h3 className="text-lg font-medium my-2">By Categories</h3>
+        <h3 className="text-lg font-medium my-2">Theo danh mục</h3>
         <div className="flex items-center justify-start gap-2 flex-wrap">
           {dummyCategories.map((category) => (
             <p
@@ -165,7 +165,7 @@ const FilterProducts = () => {
 
       {/* filter by Colors */}
       <div>
-        <h3 className="text-lg font-medium my-2">By Colors</h3>
+        <h3 className="text-lg font-medium my-2">Lọc theo màu</h3>
         <div className="flex items-center justify-start gap-2 flex-wrap">
           {colors.map((color) => (
             <p
@@ -188,7 +188,7 @@ const FilterProducts = () => {
 
       {/* filter by Brand name */}
       <div>
-        <h3 className="text-lg font-medium my-2">By Brands</h3>
+        <h3 className="text-lg font-medium my-2">Theo thương hiệu</h3>
         <div className="flex items-center justify-start gap-2 flex-wrap">
           {brandsData.map((brand) => (
             <p
@@ -205,8 +205,8 @@ const FilterProducts = () => {
         </div>
       </div>
       <div>
-        <Button onClick={clearFilter} variant={"outline-solid"} className="w-full">
-          Clear Filter
+        <Button onClick={clearFilter} variant={"outline"} className="w-full outline-1">
+          Xóa bộ lọc
         </Button>
       </div>
     </aside>

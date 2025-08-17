@@ -45,7 +45,7 @@ const ProductQuickViewModal = () => {
           <div className="absolute top-0 right-0 m-4 z-50">
             {/* Close button */}
             <Button
-              variant={"outline-solid"}
+              variant={"outline"}
               className="p-2 text-white rounded-full bg-black/50 hover:bg-black/70"
               onClick={closeModal}
             >
@@ -78,11 +78,11 @@ const ProductQuickViewModal = () => {
                   <div className="">
                     {product.stockItems === 0 ? (
                       <p className="text-lg w-fit rounded-md">
-                        out of stock
+                        Đang tạm hết
                       </p>
                     ) : (
                       <p className="text-lg w-fit rounded-md text-muted-foreground">
-                        Only {product.stockItems} items in stock
+                        Sẵn kho {product.stockItems}
                       </p>
                     )}
                   </div>

@@ -1,4 +1,4 @@
-import config from '../../tailwind.config';
+// import config from '../../tailwind.config';
 export const productsData = [
   {
     id: 1,
@@ -569,7 +569,7 @@ export const productsData = [
     brand: "Dahua",
     color: ['black'],
     stockItems: 5,
-    images: ["/images/products/HFW1239MP-A-IL.png"],
+    images: ["/images/products/B1E29-A-IL.png"],
   },
   {
     id: 19,
@@ -602,7 +602,7 @@ export const productsData = [
     brand: "Dahua",
     color: ['black'],
     stockItems: 8,
-    images: ["/images/products/DH-HDW1239V-PV.png"],
+    images: ["/images/products/HDW1239V-PV.png"],
   },
   {
     id: 20,
@@ -634,7 +634,7 @@ export const productsData = [
     brand: "Dahua",
     color: ['white'],
     stockItems: 8,
-    image: ["images/products/HFW-1239MP-A-IL.png"],
+    images: ["/images/products/HFW1239MP-A-IL.png",],
   },
   {
     id: 22,

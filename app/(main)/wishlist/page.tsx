@@ -25,10 +25,10 @@ const WishlistPage = () => {
       <div className="max-w-(--breakpoint-xl) mx-auto">
         <div className="mb-4">
           <h1 className="text-3xl lg:text-4xl font-bold text-gray-800 dark:text-white">
-            Wishlist
+            Mục yêu thích
           </h1>
           <p className="text-gray-600 dark:text-gray-300">
-            Your Saved Items Here
+            Các mặt hàng đã lưu
           </p>
         </div>
         {/* Wishlist Items */}

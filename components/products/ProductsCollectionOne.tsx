@@ -28,13 +28,13 @@ const ProductsCollectionOne = () => {
           </h2>
           <TabsList className="font-semibold bg-transparent text-center">
             <TabsTrigger value="top-rated" className="md:text-xl">
-              Top Rated
+              Đánh giá cao nhất
             </TabsTrigger>
             <TabsTrigger value="most-popular" className="md:text-xl">
-              Most Popular
+              Phổ biến
             </TabsTrigger>
             <TabsTrigger value="new-items" className="md:text-xl">
-              New Items
+              Những sản phẩm mới
             </TabsTrigger>
           </TabsList>
         </div>

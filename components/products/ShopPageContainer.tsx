@@ -95,7 +95,7 @@ const ShopPageContainer = ({
     return (
       <div className="flex items-center justify-center h-screen w-full flex-col gap-3">
         <Loader2 className="animate-spin text-xl" size={50} />
-        <p>Loading products..</p>
+        <p>Đang tải thông tin sản phẩm...</p>
       </div>
     );
   }
@@ -110,7 +110,7 @@ const ShopPageContainer = ({
           itemPerPage={itemsPerPage}
           currentPage={currentPage}
         />
-        <p>Sorry no result found with your filter selection</p>
+        <p>Rất tiếc, không có sản phẩm phù hợp thông tin bộ lọc</p>
       </div>
     );
   }

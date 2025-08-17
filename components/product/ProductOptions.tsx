@@ -64,7 +64,7 @@ const ProductOptions = ({ product }: { product: Product }) => {
             </div>
           </TooltipTrigger>
           <TooltipContent>
-            <p>Add To Wishlist</p>
+            <p>Thêm vào mục yêu thích của bạn</p>
           </TooltipContent>
         </Tooltip>
         <Tooltip>
@@ -77,7 +77,7 @@ const ProductOptions = ({ product }: { product: Product }) => {
             </div>
           </TooltipTrigger>
           <TooltipContent>
-            <p>Quick View</p>
+            <p>Xem nhanh</p>
           </TooltipContent>
         </Tooltip>
         <Tooltip>
@@ -90,7 +90,7 @@ const ProductOptions = ({ product }: { product: Product }) => {
             </div>
           </TooltipTrigger>
           <TooltipContent>
-            <p>Add To Cart</p>
+            <p>Thêm vào giỏ</p>
           </TooltipContent>
         </Tooltip>
       </TooltipProvider>

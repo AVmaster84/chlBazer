@@ -4,11 +4,12 @@ import SingleProductListView from "@/components/product/SingleProductListView";
 import { productsData } from "@/data/products/productsData";
 import Link from "next/link";
 
-const SearchComponent = ({
-  searchParams,
-}: {
-  searchParams: { query: string };
-}) => {
+const SearchComponent = async (
+  props: {
+    searchParams: Promise<{ query: string }>;
+  }
+) => {
+  const searchParams = await props.searchParams;
 
   // Filter the products based on the search query
   const foundProducts = productsData.filter((product) =>

@@ -13,10 +13,10 @@ const Footer = () => {
       <div className="max-w-(--breakpoint-xl) mx-auto p-4 md:p-8 flex md:flex-row  flex-wrap gap-4 md:gap-2 justify-between">
         <div className="flex flex-col space-y-4 mb-8 md:mb-0">
           <Logo />
-          <p>Your one-stop shop for all things electronics.</p>
+          <p>Tư vấn cung cấp thiết bị công nghệ.</p>
           <div className="flex space-x-4">
             <Link
-              href="www.facebook.com"
+              href="www.facebook.com/camhieplonglk"
               className=""
             >
               <FaFacebook size={30}/>
@@ -36,7 +36,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="flex flex-col space-y-4">
-          <h3 className="text-xl font-semibold">Categories</h3>
+          <h3 className="text-xl font-semibold">Danh mục</h3>
           <ul className="space-y-2">
             {dummyCategories.map(category => (
               <li key={category.name}>
@@ -51,14 +51,14 @@ const Footer = () => {
           </ul>
         </div>
         <div className="flex flex-col space-y-4">
-          <h3 className="text-xl font-semibold">Navigation</h3>
+          <h3 className="text-xl font-semibold">Điều hướng</h3>
           <ul className="space-y-2">
             <li>
               <Link
                 href="/"
                 className=""
               >
-                Home
+                Trang chủ
               </Link>
             </li>
             <li>
@@ -66,7 +66,7 @@ const Footer = () => {
                 href="/about"
                 className=""
               >
-                About Us
+                Về chúng tôi
               </Link>
             </li>
             <li>
@@ -74,7 +74,7 @@ const Footer = () => {
                 href="/contact"
                 className=""
               >
-                Contact Us
+                Liên hệ
               </Link>
             </li>
             <li>
@@ -82,7 +82,7 @@ const Footer = () => {
                 href="/shop"
                 className=""
               >
-                Shop
+                Hàng hóa
               </Link>
             </li>
           </ul>
@@ -95,7 +95,7 @@ const Footer = () => {
                 href="/help"
                 className=""
               >
-                Help Center
+                Trung tâm trợ giúp
               </Link>
             </li>
             <li>
@@ -103,7 +103,7 @@ const Footer = () => {
                 href="#"
                 className=""
               >
-                Returns & Refunds
+                Trả hàng & hoàn tiền
               </Link>
             </li>
             <li>
@@ -111,7 +111,7 @@ const Footer = () => {
                 href="#"
                 className=""
               >
-                Terms of Service
+                Điều khoản & dịch vụ
               </Link>
             </li>
             <li>
@@ -119,7 +119,7 @@ const Footer = () => {
                 href="#"
                 className=""
               >
-                Privacy Policy
+                Điều khoản bảo mật
               </Link>
             </li>
           </ul>
@@ -127,7 +127,7 @@ const Footer = () => {
       </div>
       <hr className="w-full h-[2px] bg-white" />
       <div className="text-center mt-8">
-        <p>&copy; 2024 Your Brand Name. All Rights Reserved.</p>
+        <p>&copy; 2025 Công ty TNHH TMDV Cam Hiệp Long.</p>
       </div>
     </footer>
   );

@@ -14,7 +14,7 @@ const ProductDescription = ({ description }: { description: string }) => {
             className="text-sky-500 m-2 cursor-pointer hover:underline"
             onClick={() => setShowMore(!showMore)}
           >
-            {showMore ? "show less" : "show more"}
+            {showMore ? "Thu gọn" : "Xem thêm"}
           </span>
         )}
       </p>

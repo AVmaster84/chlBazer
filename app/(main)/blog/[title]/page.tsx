@@ -8,7 +8,8 @@ import AboutMe from "@/components/blog/AboutMe";
 import NewsLetterTwo from "@/components/newsLetter/NewsLetterTwo";
 import CommentSection from "@/components/blog/CommentSection";
 
-const BlogTitlePage = ({ params }: { params: { title: string } }) => {
+const BlogTitlePage = async (props: { params: Promise<{ title: string }> }) => {
+  const params = await props.params;
 
   // get data from server based on the params 
 

@@ -10,17 +10,17 @@ const AddToWishlistBtn = ({product}:{product:Product}) => {
 
   const handleAddToWishList = () => {
     if(isInWishlist(product.id)){
-      showToast('Item Already Exist In Wishlist',product.images[0] as string, product.name)
+      showToast('Đã có sẵn trong mục Yêu thích của bạn',product.images[0] as string, product.name)
     }else{
       addToWishlist(product);
-    showToast('Item Added To The Wishlist',product.images[0] as string, product.name)
+    showToast('Đã thêm vào mục Yêu thích của bạn',product.images[0] as string, product.name)
     }
   }
 
   return (
-    <Button onClick={(handleAddToWishList)} variant={"outline-solid"} className="w-full p-8 text-xl rounded-full">
+    <Button onClick={(handleAddToWishList)} variant={"outline"} className="w-full p-8 text-xl rounded-full">
       {" "}
-      Add To Wishlish
+      thêm vào mục Yêu thích
     </Button>
   );
 };

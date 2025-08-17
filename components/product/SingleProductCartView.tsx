@@ -46,11 +46,11 @@ const SingleProductCartView = ({ product }: { product: Product }) => {
           <Image className="object-contain" src={images[0]} alt={name} fill />
           {stockItems === 0 ? (
             <p className="py-1 px-4 text-sm font-bold rounded-sm bg-rose-500 text-white absolute top-2 right-2">
-              out of stock
+              Đang tạm hết
             </p>
           ) : (
             <p className="py-1 px-4 text-sm font-bold rounded-sm bg-rose-500 text-white absolute top-2 right-2">
-              {product.discount}% off
+              Giảm giá {product.discount}%
             </p>
           )}
         </div>

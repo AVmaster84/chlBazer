@@ -8,11 +8,12 @@ import ProductDetails from "@/components/product/ProductDetails";
 
 // Define the props interface for the component
 interface ProductIdPageProps {
-  params: { productId: string };
+  params: Promise<{ productId: string }>;
 }
 
 // Define the main component
-const ProductIdPage = ({ params }: ProductIdPageProps) => {
+const ProductIdPage = async (props: ProductIdPageProps) => {
+  const params = await props.params;
   // TODO: fetch product data with the productId
 
   // Find the product with the specified ID from the products data

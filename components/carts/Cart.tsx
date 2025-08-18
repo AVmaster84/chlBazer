@@ -90,7 +90,7 @@ const Cart = () => {
                         <Button
                           onClick={() => handleRovomeItemFromCart(item)}
                           variant={"destructive"}
-                          size={"xs"}
+                          size={"sm"}
                           className="rounded-full bg-rose-900"
                         >
                           <X />

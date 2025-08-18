@@ -16,7 +16,7 @@ const TestimonialsSection = ({ textCenter }: { textCenter: boolean }) => {
       <div className="max-w-(--breakpoint-xl) mx-auto px-4 md:px-8">
         <h2
           className={cn(
-            "text-3xl md:text-5xl  font-bold text-gray-900 dark:text-white mb-12 p-2 w-fit ",
+            "text-3xl md:text-5xl font-bold text-gray-900 dark:text-white mb-12 p-2 w-fit ",
             textCenter
               ? "text-center border-l-4 border-l-rose-500 mx-auto "
               : "text-start border-l-4 border-l-rose-500"

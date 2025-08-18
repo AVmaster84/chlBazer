@@ -2,6 +2,7 @@ import HeaderOne from "@/components/headers/HeaderOne";
 import Footer from "@/components/footers/Footer";
 import ScrollToTop from "@/components/others/ScrollToTop";
 import { Toaster } from "sonner";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 
 export default function Layout({

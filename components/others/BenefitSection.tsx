@@ -19,10 +19,10 @@ const BenefitsSection = ({ textCenter }: { textCenter: boolean }) => {
         <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6">
           <div className="flex flex-col items-center space-y-4 bg-white dark:bg-gray-700 rounded-lg p-6 shadow-md">
             <Truck size={48} className="text-blue-500" />
-            <h3 className="text-xl font-semibold text-gray-900">
+            <h3 className="text-xl font-semibold text-gray-900 dark:text-white">
               Free Shipping
             </h3>
-            <p className="text-gray-700 text-center">
+            <p className="text-gray-700 text-center dark:text-white">
               Mua sắm thoải mái freeship ở Shopee, ở đây không có
             </p>
           </div>
@@ -31,25 +31,25 @@ const BenefitsSection = ({ textCenter }: { textCenter: boolean }) => {
             <h3 className="text-xl font-semibold text-gray-900 dark:text-white">
               Hoàn hàng dễ dàng
             </h3>
-            <p className="text-gray-700 text-center">
+            <p className="text-gray-700 text-center dark:text-white">
               Cũng có ở shopee
             </p>
           </div>
           <div className="flex flex-col items-center space-y-4 bg-white dark:bg-gray-700 rounded-lg p-6 shadow-md">
             <DollarSign size={48} className="text-blue-500" />
-            <h3 className="text-xl font-semibold text-gray-900 ">
+            <h3 className="text-xl font-semibold text-gray-900 dark:text-white ">
               Giá tốt nhất
             </h3>
-            <p className="text-gray-700 dark:text-gray-300 text-center">
+            <p className="text-gray-700 dark:text-white text-center">
               Không chắc
             </p>
           </div>
           <div className="flex flex-col items-center space-y-4 bg-white dark:bg-gray-700 rounded-lg p-6 shadow-md">
             <Users size={48} className="text-blue-500" />
-            <h3 className="text-xl font-semibold text-gray-900">
+            <h3 className="text-xl font-semibold text-gray-900 dark:text-white">
               Hỗ trợ khách hàng 24/7
             </h3>
-            <p className="text-gray-700 text-center">
+            <p className="text-gray-700 text-center dark:text-white">
               Rồi mình ngủ giờ nào
             </p>
           </div>

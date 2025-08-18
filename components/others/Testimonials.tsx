@@ -39,7 +39,7 @@ const TestimonialsSection = ({ textCenter }: { textCenter: boolean }) => {
               >
                 <div className="bg-white dark:bg-gray-700 rounded-lg overflow-hidden shadow-lg">
                   <div key={testi.id} className="p-6">
-                    <p className="text-gray-700 dark:text-gray-300 mb-4 ">
+                    <p className="text-gray-700 dark:text-black mb-4 ">
                       {testi.content}
                     </p>
                     <div className="flex items-center mb-4">
@@ -51,10 +51,10 @@ const TestimonialsSection = ({ textCenter }: { textCenter: boolean }) => {
                         className="w-12 h-12 rounded-full mr-4 object-cover"
                       />
                       <div>
-                        <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                        <h3 className="text-lg font-semibold text-gray-900 dark:text-black">
                           {testi.name}
                         </h3>
-                        <p className="text-gray-700 dark:text-gray-300">
+                        <p className="text-gray-700 dark:text-black">
                           {testi.designation}
                         </p>
                       </div>

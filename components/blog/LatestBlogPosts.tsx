@@ -42,10 +42,10 @@ const LatestBlogPosts = ({ twoColunmHeader }: { twoColunmHeader: boolean }) => {
                 <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">
                   {post.title}
                 </h3>
-                <p className="text-gray-600 dark:text-gray-300 text-sm mb-2">
+                <p className="text-gray-600 dark:text-black text-sm mb-2">
                   By {post.author} | {post?.date?.toDateString()}
                 </p>
-                <p className="text-gray-700 dark:text-gray-400">
+                <p className="text-gray-700 dark:text-gray-800">
                   {post.excerpt.slice(0, 100)}...
                 </p>
                 <div className="flex items-center justify-between mt-4">

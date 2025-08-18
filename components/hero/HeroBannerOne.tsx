@@ -20,8 +20,8 @@ const HeroBannerOne = () => {
   // get banners data from server then display here
 
   return (
-    <section className="bg-linear-to-r from-slate-100 to-slate-200 dark:from-slate-800 dark:to-slate-900 ">
-      <div className="max-w-(--breakpoint-xl) mx-auto py-15 px-4 md:px-8 ">
+    <section className="bg-linear-to-r from-slate-200 to-slate-400 dark:from-slate-800 dark:to-slate-900 d-glass">
+      <div className="max-w-(--breakpoint-xl) mx-auto py-12 px-4 md:px-8 ">
         <Carousel
           plugins={[
             Autoplay({
@@ -58,7 +58,7 @@ const HeroBannerOne = () => {
                   <Link href={data.link} className="block ">
                     <Button
                       size={"lg"}
-                      className="text-xl p-3 md:p-8 rounded-full gap-2 md:gap-4 mb-4"
+                      className="text-xl p-3 md:p-8 rounded-full gap-2 md:gap-4 mb-4 outline-1"
                     >
                       <ArrowRight className="text-rose-500" /> {data.button}
                     </Button>

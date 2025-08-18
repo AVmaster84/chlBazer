@@ -24,7 +24,7 @@ export function ThemeToggle() {
           <span className="sr-only">Toggle theme</span>
         </Button>
       </DropdownMenuTrigger>
-      <DropdownMenuContent align="end" className="rounded-xl bg-slate-200 dark:bg-background">
+      <DropdownMenuContent align="end" className="rounded-xl bg-slate-200 dark:bg-slate-900">
         <DropdownMenuItem className="hover:bg-slate-500 dark:hover:bg-slate-200/50 dark:hover:text-black" onClick={() => setTheme("light")}>
           Light
         </DropdownMenuItem>

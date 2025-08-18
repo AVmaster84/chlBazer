@@ -90,8 +90,8 @@ const Cart = () => {
                         <Button
                           onClick={() => handleRovomeItemFromCart(item)}
                           variant={"destructive"}
-                          size={"sm"}
-                          className="rounded-full bg-rose-900"
+                          size={"xs"}
+                          className="rounded-full bg-blue-500 hover:bg-blue-900"
                         >
                           <X />
                         </Button>
@@ -105,7 +105,7 @@ const Cart = () => {
               <div className="w-full">
                 <div className="flex items-center justify-between gap-2">
                   <h3 className="text-xl text-center font-semibold">
-                    Your Subtotal :
+                    Tổng cộng :
                   </h3>
                   <p className="text-xl text-center font-bold text-green-500">
                     {formatPrice(getTotalPrice())} vnđ

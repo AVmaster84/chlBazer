@@ -40,7 +40,7 @@ const CategoriesCollection = () => {
         {/* Show camera IP collection */}
         <div
           onClick={() => handleCollectionClick(cameraips[0].category)}
-          className="flex flex-col gap-4 items-start justify-between p-4 md:p-8 rounded-xl bg-stone-300/20 dark:bg-slate-900 shadow-lg"
+          className="flex flex-col gap-4 items-start justify-between p-4 md:p-8 rounded-xl bg-stone-400/20 dark:bg-slate-900 shadow-lg"
         >
           <h2 className="text-xl md:text-2xl text-center font-semibold my-4 w-full">
             Khuyến mãi trong 
@@ -90,7 +90,7 @@ const CategoriesCollection = () => {
         {/* showing headphones collection */}
         <div
           onClick={() => handleCollectionClick(headphones[0].category)}
-           className="flex flex-col gap-4 items-start justify-between p-4 md:p-8 rounded-xl bg-stone-300/20 dark:bg-slate-900 shadow-lg"
+           className="flex flex-col gap-4 items-start justify-between p-4 md:p-8 rounded-xl bg-stone-400/20 dark:bg-slate-900 shadow-lg"
         >
           <h2 className="text-xl md:text-2xl text-center font-semibold my-4 w-full">
             Khuyến mãi trong <span className="text-4xl font-black">{headphones[0].category}</span>
@@ -138,7 +138,7 @@ const CategoriesCollection = () => {
         {/* showing computers collection */}
         <div
           onClick={() => handleCollectionClick(computers[0].category)}
-          className="flex flex-col gap-4 items-start justify-between p-4 md:p-8 rounded-xl bg-stone-300/20 dark:bg-slate-900 shadow-lg"
+          className="flex flex-col gap-4 items-start justify-between p-4 md:p-8 rounded-xl bg-stone-400/20 dark:bg-slate-900 shadow-lg"
         >
           <h2 className="text-xl md:text-2xl text-center font-semibold my-4 w-full">
             Khuyến mãi trong <span className="text-4xl font-black">{computers[0].category}</span>

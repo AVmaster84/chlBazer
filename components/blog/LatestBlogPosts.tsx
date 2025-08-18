@@ -15,7 +15,7 @@ const LatestBlogPosts = ({ twoColunmHeader }: { twoColunmHeader: boolean }) => {
             <h2 className="text-3xl md:text-5xl text-center! md:text-start font-bold  text-gray-900 dark:text-white border-l-4 p-2 border-l-rose-500 ">
               Bài viết mới
             </h2>
-            <Button variant={"outline-solid"} className="hidden md:block" size={"sm"}>
+            <Button variant={"destructive"} className="hidden md:block" size={"sm"}>
               <Link href={"/blog"}>Xem đầy đủ...</Link>
             </Button>
           </div>

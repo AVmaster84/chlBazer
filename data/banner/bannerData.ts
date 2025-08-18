@@ -1,27 +1,27 @@
 
 export const bannerData = [
     {
-        title:'Dominate the Competition with the Legion X7',
+        title:'Lenovo Legion 2025',
         description:'Unleash ultimate gaming power with the Legion X7. Featuring a top-of-the-line processor, powerful graphics card, and a high-refresh-rate display.',
-        images:['/images/banner/gaming-laptop.png'],
-        button:'Shop Gaming Laptops',
-        discountText:'Buy now Get 10% off',
+        images:['/images/banner/lenovo-black.png'],
+        button:'Gaming Laptops',
+        discountText:'KM giảm giá 10%',
         link: `shop?category=Computers`
     },
     {
-        title:'Introducing the All-New NovaPhone 15',
-        description:'Experience unparalleled performance with our most advanced phone yet. Blazing-fast processor, stunning camera system, and a revolutionary display.',
-        images:['/images/banner/iphone.png'],
+        title:'Camera Dahua Picoo Dual Camera',
+        description:'Ống kính quay quét 6mm (góc nhìn 51°) có thể điều khiển từ xa, góc quay ngang 0~355°, góc quay dọc 0~90°.',
+        images:['/images/banner/IPC-S2XEP-10M0S.png'],
         button:'Order Now',
-        discountText:'Buy now Get 5% off',
-        link:`shop?category=Smartphones`
+        discountText:'KM giảm giá 5%',
+        link:`shop?category=CamereIP`
     },
     {
         title:'High-resolution noise-canceling headphones.',
         description:'Immerse Yourself in Pure Sound with the SonicPro Max',
         images:['/images/banner/headphone.png'],
         button:'Shop Headphones',
-        discountText:'Buy now Get 15% off',
+        discountText:'KM giảm giá 15%',
         link:'shop?category=Headphones'
     },
 ]

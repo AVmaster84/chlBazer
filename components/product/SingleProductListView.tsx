@@ -7,6 +7,8 @@ import AddToWishlistBtn from "../buttons/AddToWishlistBtn";
 import AddToCartBtn from "../buttons/AddToCartBtn";
 import { Product } from "@/types";
 import { calculateDiscount } from "@/lib/calculateDiscount";
+import { formatPrice } from "@/lib/formatPrice";
+
 
 const SingleProductListView = ({ product }: { product: Product }) => {
   const { category, discount, id, images, name, price, rating, reviews } =
@@ -32,9 +34,9 @@ const SingleProductListView = ({ product }: { product: Product }) => {
         </div>
         <RatingReview rating={rating} review={reviews.length} />
         <div className="text-lg font-bold space-x-2 my-4 ">
-          <span className="line-through text-muted-foreground">${price}</span>
+          <span className="line-through text-muted-foreground">{formatPrice(price)}</span>
           <span className="text-xl font-bold text-green-500">
-            ${discountPrice}
+            {formatPrice(discountPrice)}
           </span>
         </div>
         <div className=" text-sm">

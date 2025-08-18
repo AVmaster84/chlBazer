@@ -14,8 +14,8 @@ const ProductTab = ({ aboutItem = [], reviews = [] }: ProductTabsProps) => {
     <div>
       <Tabs defaultValue="aboutitem" className="w-full p-4 -mt-2 ">
         <TabsList className="bg-transparent">
-          <TabsTrigger value="aboutitem">About This Item</TabsTrigger>
-          <TabsTrigger value="reviews">Reviews</TabsTrigger>
+          <TabsTrigger value="aboutitem">Chi tiết sản phẩm</TabsTrigger>
+          <TabsTrigger value="reviews">Đánh giá</TabsTrigger>
         </TabsList>
         <TabsContent value="aboutitem">
           <div>

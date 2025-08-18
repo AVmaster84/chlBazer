@@ -1,7 +1,7 @@
 export const blogPosts = [
   {
     title: "Top 5 Must-Have Gadgets for Students in 2024",
-    author: "John Doe (Tech Enthusiast)",
+    author: "Thanos (The Last Titan)",
     category: "Tech Trends",
     image: "/images/products/senheiser-removebg-preview.png",
     excerpt:
@@ -46,7 +46,7 @@ export const blogPosts = [
   },
   {
     title: "The Ultimate Guide to Choosing the Perfect Gaming Laptop",
-    author: "Jane Smith (Gaming Expert)",
+    author: "Wonder Woman (Con gái thần Zeus)",
     category: "Gaming",
     image: "/images/products/asus-vivobook-removebg-preview.png",
     excerpt:
@@ -87,7 +87,7 @@ export const blogPosts = [
   },
   {
     title: "Smart Home Devices That Make Your Life Easier",
-    author: "David Lee (Tech Lifestyle Blogger)",
+    author: "Bruce Wayne (I'm Batman)",
     category: "Smart Home",
     image: "/images/products/galaxy-15-removebg-preview.png",
     excerpt:

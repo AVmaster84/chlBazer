@@ -42,10 +42,10 @@ const CategoriesCollection = () => {
           onClick={() => handleCollectionClick(cameraips[0].category)}
           className="flex flex-col gap-4 items-start justify-between p-4 md:p-8 rounded-xl bg-stone-300/20 dark:bg-slate-900 shadow-lg"
         >
-          <h2 className="text-2xl md:text-4xl text-center font-extrabold my-4 w-full">
-            Camera IP 
+          <h2 className="text-xl md:text-2xl text-center font-semibold my-4 w-full">
+            Khuyến mãi trong 
             {/* <span className="text-2xl font-bold">{cameraips[0].category}</span> */}
-            <span className="text-2xl font-semibold"> đang khuyến mãi</span>
+            <span className="text-4xl font-black"><br />Camera IP</span>
           </h2>
           <div className="grid grid-cols-2 gap-4 place-content-center w-full">
             {cameraips?.slice(0, 4)?.map((cameraip) => (
@@ -55,7 +55,7 @@ const CategoriesCollection = () => {
               >
                 <div className="absolute -top-2 -right-4">
                   <p className="bg-rose-600 p-1 text-sm text-white animate-pulse whitespace-nowrap w-fit rounded-sm">
-                     Giarm {cameraip.discount}%
+                     Giảm {cameraip.discount}%
                 </p>
                 </div>
                 <Image
@@ -83,17 +83,17 @@ const CategoriesCollection = () => {
             variant={"outline"}
             size={"lg"}
           >
-            <ArrowRight /> Collections
+            <ArrowRight /> Xem thêm
           </Button>
         </div>
 
         {/* showing headphones collection */}
         <div
           onClick={() => handleCollectionClick(headphones[0].category)}
-          className="flex flex-col gap-4 items-start justify-between p-4 md:p-8 rounded-xl bg-stone-300/20 dark:bg-slate-900 shadow-lg"
+           className="flex flex-col gap-4 items-start justify-between p-4 md:p-8 rounded-xl bg-stone-300/20 dark:bg-slate-900 shadow-lg"
         >
           <h2 className="text-xl md:text-2xl text-center font-semibold my-4 w-full">
-            Best Deals For You On <span className="text-2xl font-bold">{headphones[0].category}</span>
+            Khuyến mãi trong <span className="text-4xl font-black">{headphones[0].category}</span>
           </h2>
           <div className="grid grid-cols-2 gap-4 place-content-center w-full">
             {headphones?.slice(0, 4)?.map((headphone) => (
@@ -131,7 +131,7 @@ const CategoriesCollection = () => {
             variant={"outline"}
             size={"lg"}
           >
-            <ArrowRight /> Collections
+            <ArrowRight /> Xem thêm
           </Button>
         </div>
 
@@ -141,7 +141,7 @@ const CategoriesCollection = () => {
           className="flex flex-col gap-4 items-start justify-between p-4 md:p-8 rounded-xl bg-stone-300/20 dark:bg-slate-900 shadow-lg"
         >
           <h2 className="text-xl md:text-2xl text-center font-semibold my-4 w-full">
-            Best Deals For You On <span className="text-2xl font-bold">{computers[0].category}</span>
+            Khuyến mãi trong <span className="text-4xl font-black">{computers[0].category}</span>
           </h2>
           <div className="grid grid-cols-2 gap-4 place-content-center w-full">
             {computers?.slice(0, 4)?.map((computer) => (
@@ -179,7 +179,7 @@ const CategoriesCollection = () => {
             variant={"outline"}
             size={"lg"}
           >
-            <ArrowRight /> Collections
+            <ArrowRight /> Xem thêm
           </Button>
         </div>
       </div>

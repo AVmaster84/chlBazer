@@ -58,9 +58,9 @@ const Cart = () => {
             </Badge>
           </div>
         </SheetTrigger>
-        <SheetContent className="w-[90%] overflow-y-auto md:overflow-y-hidden">
+        <SheetContent className="w-[80%] overflow-y-auto md:overflow-y-hidden dark:bg-gray-800 dark:opacity-60">
           <SheetHeader>
-            <SheetTitle>Shopping Cart</SheetTitle>
+            <SheetTitle>Giỏ hàng</SheetTitle>
             <Separator />
             <SheetDescription className="flex items-start justify-between gap-4 flex-col h-[90vh]">
               <div className="overflow-y-auto">
@@ -74,7 +74,7 @@ const Cart = () => {
                     <Image
                       className="rounded-full object-contain"
                       src={item?.images && item?.images[0]}
-                      alt="product iamge"
+                      alt="product image"
                       width={70}
                       height={70}
                     />
@@ -82,17 +82,16 @@ const Cart = () => {
                       <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-2">
                         <h2>{item.name.slice(0, 50)}...</h2>
                       </div>
-
                       <div className="flex items-center justify-between">
-                        <p className="text-lg border border-green-500 px-2 rounded-md text-green-500">
-                          ${item.price}
+                        <p className="text-lg px-2 rounded-md text-muted-foreground">
+                          {formatPrice(item.price)}
                         </p>
-                        <p className="text-lg">Qty : {item.quantity}</p>
+                        <p className="text-lg"> x {item.quantity}</p>
                         <Button
                           onClick={() => handleRovomeItemFromCart(item)}
                           variant={"destructive"}
-                          size={"sm"}
-                          className="rounded-full"
+                          size={"xs"}
+                          className="rounded-full bg-rose-900"
                         >
                           <X />
                         </Button>
@@ -109,7 +108,7 @@ const Cart = () => {
                     Your Subtotal :
                   </h3>
                   <p className="text-xl text-center font-bold text-green-500">
-                    $ {formatPrice(getTotalPrice())}
+                    {formatPrice(getTotalPrice())} vnđ
                   </p>
                 </div>
 

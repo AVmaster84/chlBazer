@@ -4,7 +4,9 @@ import "@/app/globals.css";
 import { cn } from "@/lib/utils";
 import { ThemeProvider } from "@/providers/ThemeProvider";
 import ModalProvider from "@/providers/ModalProvider";
-import { SpeedInsights } from "@vercel/speed-insights/next"
+import { SpeedInsights } from "@vercel/speed-insights/next";
+import { Analytics } from "@vercel/analytics/react";
+
 
 const fontSans = FontSans({
   subsets: ["latin"],
@@ -36,6 +38,8 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
+          <SpeedInsights />
+          <Analytics />
           {children}
           <ModalProvider />
         </ThemeProvider>

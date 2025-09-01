@@ -40,7 +40,7 @@ const CategoriesCollection = () => {
         {/* Show camera IP collection */}
         <div
           onClick={() => handleCollectionClick(cameraips[0].category)}
-          className="flex flex-col gap-4 items-start justify-between p-4 md:p-8 rounded-xl bg-stone-400/20 dark:bg-slate-900 shadow-lg"
+          className="flex flex-col gap-4 items-start justify-between p-4 md:p-8 rounded-xl bg-blue-200/50  dark:bg-slate-900 shadow-xl"
         >
           <h2 className="text-xl md:text-2xl text-center font-semibold my-4 w-full">
             Khuyến mãi trong 
@@ -51,7 +51,7 @@ const CategoriesCollection = () => {
             {cameraips?.slice(0, 4)?.map((cameraip) => (
               <div
                 key={cameraip.id}
-                className="relative flex flex-col items-center justify-center text-center gap-2 border-1 rounded-lg border-stone-100/20  shadow-md h-64 hover:border-stone-200/10"
+                className="relative flex flex-col items-center justify-center text-center gap-2 border-1 rounded-lg border-stone-100/20  shadow-2xl h-64 hover:border-stone-200/10 bg-blue-300/50 glass"
               >
                 <div className="absolute -top-2 -right-4">
                   <p className="bg-rose-600 p-1 text-sm text-white animate-pulse whitespace-nowrap w-fit rounded-sm">
@@ -79,8 +79,8 @@ const CategoriesCollection = () => {
             ))}
           </div>
           <Button
-            className="mt-4 flex items-center gap-4 text-lg font-semibold w-full"
-            variant={"outline"}
+            className="mt-4 flex items-center gap-4 text-lg font-semibold w-full shadow-lg bg-blue-500/20 hover:bg-blue-500"
+            variant={"ghost"}
             size={"lg"}
           >
             <ArrowRight /> Xem thêm
@@ -90,7 +90,7 @@ const CategoriesCollection = () => {
         {/* showing headphones collection */}
         <div
           onClick={() => handleCollectionClick(headphones[0].category)}
-           className="flex flex-col gap-4 items-start justify-between p-4 md:p-8 rounded-xl bg-stone-400/20 dark:bg-slate-900 shadow-lg"
+           className="flex flex-col gap-4 items-start justify-between p-4 md:p-8 rounded-xl bg-blue-200/50 dark:bg-slate-900 shadow-xl"
         >
           <h2 className="text-xl md:text-2xl text-center font-semibold my-4 w-full">
             Khuyến mãi trong <span className="text-4xl font-black">{headphones[0].category}</span>
@@ -99,7 +99,7 @@ const CategoriesCollection = () => {
             {headphones?.slice(0, 4)?.map((headphone) => (
               <div
                 key={headphone.id}
-                className="relative flex flex-col items-center justify-center text-center gap-2 border-1 rounded-lg border-stone-100/20 shadow-md h-64"
+                className="relative flex flex-col items-center justify-center text-center gap-2 border-1 rounded-lg border-stone-100/20 shadow-2xl h-64 bg-blue-300/50 glass"
               >
                 <div className="absolute -top-2 -right-4">
                   <p className="bg-rose-600 p-1 text-sm text-white animate-pulse whitespace-nowrap w-fit rounded-sm">
@@ -127,8 +127,8 @@ const CategoriesCollection = () => {
             ))}
           </div>
           <Button
-            className="mt-4 flex items-center gap-4 text-lg font-semibold w-full"
-            variant={"outline"}
+            className="mt-4 flex items-center gap-4 text-lg font-semibold w-full shadow-2xl bg-blue-500/20 hover:bg-blue-500"
+            variant={"ghost"}
             size={"lg"}
           >
             <ArrowRight /> Xem thêm
@@ -138,7 +138,7 @@ const CategoriesCollection = () => {
         {/* showing computers collection */}
         <div
           onClick={() => handleCollectionClick(computers[0].category)}
-          className="flex flex-col gap-4 items-start justify-between p-4 md:p-8 rounded-xl bg-stone-400/20 dark:bg-slate-900 shadow-lg"
+          className="flex flex-col gap-4 items-start justify-between p-4 md:p-8 rounded-xl bg-blue-200/50  dark:bg-slate-900 shadow-xl"
         >
           <h2 className="text-xl md:text-2xl text-center font-semibold my-4 w-full">
             Khuyến mãi trong <span className="text-4xl font-black">{computers[0].category}</span>
@@ -147,7 +147,7 @@ const CategoriesCollection = () => {
             {computers?.slice(0, 4)?.map((computer) => (
               <div
                 key={computer.id}
-                className="relative flex flex-col items-center justify-center text-center gap-2 border-1 rounded-lg border-stone-100/20 shadow-md h-64 bg-background"
+                className="relative flex flex-col items-center justify-center text-center gap-2 border-1 rounded-lg border-stone-100/20 shadow-2xl h-64 bg-blue-300/50 glass"
               >
                 <div className="absolute -top-2 -right-4">
                   <p className="bg-rose-600 p-1 text-sm text-white animate-pulse whitespace-nowrap w-fit rounded-sm">
@@ -175,8 +175,8 @@ const CategoriesCollection = () => {
             ))}
           </div>
           <Button
-            className="mt-4 flex items-center gap-4 text-lg font-semibold w-full"
-            variant={"outline"}
+            className="mt-4 flex items-center gap-4 text-lg font-semibold w-full shadow-lg bg-blue-500/20 hover:bg-blue-500"
+            variant={"ghost"}
             size={"lg"}
           >
             <ArrowRight /> Xem thêm

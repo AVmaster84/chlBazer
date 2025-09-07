@@ -5,7 +5,7 @@ import { ShoppingBag } from "lucide-react";
 
 import useCartStore from "@/store/cartStore";
 import { showToast } from "@/lib/showToast";
-import { CartItem } from "@/types";
+import { CartItem } from "@/types/types";
 
 
 const AddToCartBtn = ({product}:{product:CartItem}) => {

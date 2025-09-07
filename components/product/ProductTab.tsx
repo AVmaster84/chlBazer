@@ -1,6 +1,6 @@
 import React from "react";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { Review } from "@/types";
+import { Review } from "@/types/types";
 import Image from "next/image";
 import { Star } from "lucide-react";
 

@@ -10,7 +10,7 @@ import {
 import useCartStore from "@/store/cartStore";
 import useWishlistStore from "@/store/wishlistStore";
 import { showToast } from "@/lib/showToast";
-import { Product } from "@/types";
+import { Product } from "@/types/types";
 import { useProductQuickViewStore } from "@/store/productQuickViewStore";
 import Loader from "../others/Loader";
 

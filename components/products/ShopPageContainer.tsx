@@ -4,8 +4,9 @@ import ProductViewChange from "../product/ProductViewChange";
 import { productsData } from "@/data/products/productsData";
 import Pagination from "../others/Pagination";
 import SingleProductListView from "@/components/product/SingleProductListView";
-import { Product, SearchParams } from "@/types";
-import SingleProductCartView from "../product/SingleProductCartView";
+import { WooCommerceProduct } from "@/types/types";
+import { searchProduct}
+import SingleProductCartView from "../product/SingleProductCartView2";
 import { Loader2 } from "lucide-react";
 import Loader from "../others/Loader";
 

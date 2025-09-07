@@ -5,7 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 import AddToWishlistBtn from "../buttons/AddToWishlistBtn";
 import AddToCartBtn from "../buttons/AddToCartBtn";
-import { Product } from "@/types";
+// import { Product } from "@/types/types";
 import { calculateDiscount } from "@/lib/calculateDiscount";
 import { formatPrice } from "@/lib/formatPrice";
 

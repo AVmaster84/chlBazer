@@ -1,5 +1,5 @@
 import ShopPageOne from "@/components/pages/shop-pages/ShopPageOne";
-import { SearchParams } from "@/types";
+import { SearchParams } from "@/types/types";
 import React from "react";
 
 async function ShopPage(

@@ -18,7 +18,7 @@ import CheckoutBtn from "../buttons/CheckoutBtn";
 import { Button } from "../ui/button";
 import useCartStore from "@/store/cartStore";
 import { showToast } from "@/lib/showToast";
-import { CartItem } from "@/types";
+import { CartItem } from "@/types/types";
 import { formatPrice } from "@/lib/formatPrice";
 
 const Cart = () => {

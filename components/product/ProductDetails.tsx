@@ -8,7 +8,7 @@ import ProductQuantityChange from "./ProductQuantityChange";
 import RatingReview from "../others/RatingReview";
 import ProductDescription from "./ProductDescription";
 import ProductColorSelection from "./ProductColorSelection";
-import { Product } from "@/types";
+import { Product } from "@/types/types";
 import Link from "next/link";
 import { calculateDiscount } from "@/lib/calculateDiscount";
 import { formatPrice } from "@/lib/formatPrice";

@@ -1,5 +1,5 @@
 'use client'
-import { CartItem } from "@/types";
+import { CartItem } from "@/types/types";
 import { create } from "zustand";
 
 interface CartState {

@@ -4,10 +4,17 @@ import RatingReview from "../others/RatingReview";
 import Link from "next/link";
 import Image from "next/image";
 import ProductOptions from "./ProductOptions";
-import { Product } from "@/types";
+import { WooCommerceProduct } from "@/types/types";
 import { calculateDiscount } from "@/lib/calculateDiscount";
 import { useRouter } from "next/navigation";
 import { formatPrice } from "@/lib/formatPrice";
+import { WooCommerceRestAPI }  from "@/lib/apiWoo";  
+import { fetchWooCommerceData } from "@/lib/fetchWooCommerceData";
+
+const fetchData = new fetchWooCommerceData();
+await fetchData.fetchProductsByCategoryId()
+
+
 const SingleProductCartView = ({ product }: { product: Product }) => {
   const [isMounted, setIsMounted] = useState(false);
 

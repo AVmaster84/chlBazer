@@ -1,8 +1,3 @@
-import { Process } from "framer-motion";
-import { EnvVars } from "next/dist/build/turborepo-access-trace/types";
-
-// types.ts - Định nghĩa các interface
-
 export interface WooCommerceConfig {
   baseUrl: string;
   consumerKey: string;
@@ -119,7 +114,7 @@ export interface WooProductCategory {
   id:       number;
   name:	   string;
   slug:	    string;
-  parent:	      number;
+  parent?:	      number;
   description:	string;
   display:	  string;
   image:    	object;

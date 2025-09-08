@@ -27,7 +27,7 @@ yarn-error.log*
 
 # local env files
 .env*.local
-/lib/api*
+# /lib/api*
 # vercel
 .vercel
 

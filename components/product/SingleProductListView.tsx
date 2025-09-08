@@ -5,16 +5,26 @@ import Link from "next/link";
 import Image from "next/image";
 import AddToWishlistBtn from "../buttons/AddToWishlistBtn";
 import AddToCartBtn from "../buttons/AddToCartBtn";
-// import { Product } from "@/types/types";
+import { WooCommerceProduct } from "@/lib/apiWoo.d";
 import { calculateDiscount } from "@/lib/calculateDiscount";
 import { formatPrice } from "@/lib/formatPrice";
 
 
-const SingleProductListView = ({ product }: { product: Product }) => {
-  const { category, discount, id, images, name, price, rating, reviews } =
+const SingleProductListView = ({ product }: { product: WooCommerceProduct }) => {
+  const { id,
+          slug,
+          name,
+          price,
+          regular_price,
+          sale_price,
+          images,
+          short_description,
+          description,
+          related_ids,
+          upsell_ids,
+    } =
     product;
 
-  const discountPrice = calculateDiscount(price, discount);
 
   return (
     <Link

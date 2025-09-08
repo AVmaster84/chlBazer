@@ -1,6 +1,6 @@
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { productsData } from "@/data/products/productsData";
-import { WooCommerceProduct, W } from "@/types/types";
+import { WooCommerceProduct } from "@/types/types";
 import React from "react";
 import SingleProductCartView from "../product/SingleProductCartView";
 
